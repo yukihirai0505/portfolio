@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import './index.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Footer from './organisms/Footer'
 import Contact from './organisms/Contact'
 import Skills from './organisms/Skills'
@@ -12,12 +11,14 @@ import Lead from './organisms/Lead'
 import Header from './organisms/Header'
 
 class App extends Component {
+
+  constructor() {
+    super()
+  }
+
   render() {
     return (
       <div>
-        <div id="mobile-menu-open" className="shadow-large">
-          <FontAwesomeIcon icon="bars"/>
-        </div>
         <Header/>
         <Lead/>
         <About/>
