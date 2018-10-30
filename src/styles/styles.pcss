@@ -697,6 +697,16 @@ footer {
     background: color(var(--baseColor) shade(15%));
     color: #fff;
     @add-mixin transition;
+    ::placeholder {
+      color: #fff;
+      opacity: 1;
+    }
+    :-ms-input-placeholder {
+      color: #fff;
+    }
+    ::-ms-input-placeholder {
+      color: #fff;
+    }
 
     &:focus {
       outline: none;
@@ -812,7 +822,6 @@ footer {
   #lead {
     height: auto;
     min-height: auto;
-    max-height: auto;
     padding: 100px 15px;
   }
 

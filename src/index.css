@@ -773,6 +773,39 @@ footer {
     transition: 0.5s ease all;
   }
 
+#contact-form input ::-webkit-input-placeholder, #contact-form textarea ::-webkit-input-placeholder {
+      color: #fff;
+      opacity: 1;
+    }
+
+#contact-form input ::-ms-input-placeholder, #contact-form textarea ::-ms-input-placeholder {
+      color: #fff;
+      opacity: 1;
+    }
+
+::-webkit-input-placeholder {
+      color: #fff;
+      opacity: 1;
+    }
+
+::-ms-input-placeholder {
+      color: #fff;
+      opacity: 1;
+    }
+
+#contact-form input ::placeholder, #contact-form textarea ::placeholder {
+      color: #fff;
+      opacity: 1;
+    }
+
+#contact-form input :-ms-input-placeholder, #contact-form textarea :-ms-input-placeholder {
+      color: #fff;
+    }
+
+#contact-form input ::-ms-input-placeholder, #contact-form textarea ::-ms-input-placeholder {
+      color: #fff;
+    }
+
 #contact-form input:focus, #contact-form textarea:focus {
       outline: none;
       background: rgb(39, 114, 164);
@@ -892,7 +925,6 @@ footer {
   #lead {
     height: auto;
     min-height: auto;
-    max-height: auto;
     padding: 100px 15px;
   }
 
