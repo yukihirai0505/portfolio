@@ -1,6 +1,6 @@
 :root {
   --baseColor: #3498db;
-  --baseColorHover: darken(var(--baseColor), 10%);
+  --baseColorHover: color(var(--baseColor) shade(10%));
   --background: #fff;
   --backgroundAlt: #f2f2f5;
   --border: #dcd9d9;
@@ -10,13 +10,13 @@
 
 /*
     ---------------------
-    ----- 2. Mixins -----
+    ----- Mixins -----
     ---------------------
 */
 
 /*
     ----------------------------
-    ----- 3. Global Styles -----
+    ----- Global Styles -----
     ----------------------------
 */
 
@@ -135,7 +135,7 @@ header a {
   }
 
 header a:hover {
-      color: darken(#3498db, 10%);
+      color: color(#3498db shade(10%));
       color: var(--baseColorHover);
       text-decoration: none;
       background: #eee;
@@ -225,8 +225,8 @@ footer {
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    border: 3px solid lighten(#74808a, 25%);
-    border: 3px solid lighten(var(--text), 25%);
+    border: 3px solid color(#74808a tint(25%));
+    border: 3px solid color(var(--text) tint(25%));
     text-align: center;
   }
 
@@ -268,8 +268,8 @@ footer {
   padding: 15px 25px;
   border: 3px solid #fff;
   border-radius: 30px;
-  -webkit-transition: $ duration $ func $ property;
-  transition: $ duration $ func $ property;
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
 }
 
 .btn-rounded-white:hover {
@@ -315,7 +315,7 @@ footer {
 
 /*
     --------------------------
-    ----- 4. Lead Styles -----
+    ----- Lead Styles -----
     --------------------------
 */
 
@@ -355,8 +355,8 @@ footer {
   }
 
 #lead-content h2 {
-    color: lighten(#3498db, 25%);
-    color: lighten(var(--baseColor), 25%);
+    color: color(#3498db, tint(25%));
+    color: color(var(--baseColor), tint(25%));
     font-weight: 500;
     font-size: 2.25em;
     margin-bottom: 15px;
@@ -370,7 +370,7 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(darken(#3498db, 10%) 0.8);
+  background: rgba(color(#3498db shade(10%)) 0.8);
   background: rgba(var(--baseColorHover) 0.8);
   z-index: 1;
 }
@@ -393,8 +393,8 @@ footer {
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    border: 3px solid lighten(#3498db, 25%);
-    border: 3px solid lighten(var(--baseColor), 25%);
+    border: 3px solid color(#3498db, tint(25%));
+    border: 3px solid color(var(--baseColor), tint(25%));
     text-align: center;
   }
 
@@ -442,7 +442,7 @@ footer {
 
 /*
     ---------------------------
-    ----- 5. About Styles -----
+    ----- About Styles -----
     ---------------------------
 */
 
@@ -465,7 +465,7 @@ footer {
 
 /*
     --------------------------------
-    ----- 6. Experience Styles -----
+    ----- Experience Styles -----
     --------------------------------
 */
 
@@ -508,10 +508,10 @@ footer {
     height: 40px;
     background: #3498db;
     background: var(--baseColor);
-    background: -webkit-linear-gradient(top, #3498db, rgba(#3498db, 0));
-    background: linear-gradient(to bottom, #3498db, rgba(#3498db, 0));
-    background: -webkit-linear-gradient(top, var(--baseColor), rgba(var(--baseColor), 0));
-    background: linear-gradient(to bottom, var(--baseColor), rgba(var(--baseColor), 0));
+    background: -webkit-linear-gradient(top, #3498db, rgba(#3498db 0));
+    background: linear-gradient(to bottom, #3498db, rgba(#3498db 0));
+    background: -webkit-linear-gradient(top, var(--baseColor), rgba(var(--baseColor) 0));
+    background: linear-gradient(to bottom, var(--baseColor), rgba(var(--baseColor) 0));
     top: 100%;
     left: 303px;
   }
@@ -586,7 +586,7 @@ footer {
 
 /*
     -------------------------------
-    ----- 7. Education Styles -----
+    ----- Education Styles -----
     -------------------------------
 */
 
@@ -648,7 +648,7 @@ footer {
 
 /*
     -------------------------------
-    ----- 8. Project Styles -----
+    ----- Project Styles -----
     -------------------------------
 */
 
@@ -716,7 +716,7 @@ footer {
 
 /*
     -------------------------------
-    ----- 9. Skills Styles -----
+    ----- Skills Styles -----
     -------------------------------
 */
 
@@ -744,8 +744,8 @@ footer {
     padding: 5px 10px;
     color: #374054;
     color: var(--heading);
-    background: darken(#f2f2f5, 5%);
-    background: darken(var(--backgroundAlt), 5%);
+    background: color(#f2f2f5 shade(5%));
+    background: color(var(--backgroundAlt) shade(5%));
     list-style: none;
     cursor: default;
     font-size: 1.2em;
@@ -753,7 +753,7 @@ footer {
 
 /*
     -------------------------------
-    ----- 10. Contact Styles -----
+    ----- Contact Styles -----
     -------------------------------
 */
 
@@ -783,31 +783,31 @@ footer {
     border-radius: 4px;
     border: none;
     margin-bottom: 10px;
-    background: darken(#3498db, 15%);
-    background: darken(var(--baseColor), 15%);
+    background: color(#3498db shade(15%));
+    background: color(var(--baseColor) shade(15%));
     color: #fff;
-    -webkit-transition: $ duration $ func $ property;
-    transition: $ duration $ func $ property;
+    -webkit-transition: 0.5s ease all;
+    transition: 0.5s ease all;
     &::-webkit-input-placeholder {
-    @content;
+    @content ;
   }
     &:-moz-placeholder {
-    @content;
+    @content ;
     opacity: 1;
   }
     &::-moz-placeholder {
-    @content;
+    @content ;
     opacity: 1;
   }
     &:-ms-input-placeholder {
-    @content;
+    @content ;
   }
   }
 
 #contact-form input:focus, #contact-form textarea:focus {
       outline: none;
-      background: darken(#3498db, 25%);
-      background: darken(var(--baseColor), 25%);
+      background: color(#3498db shade(25%));
+      background: color(var(--baseColor) shade(25%));
     }
 
 #contact-form textarea {
@@ -826,8 +826,8 @@ footer {
     color: var(--baseColor);
     font-weight: 700;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    -webkit-transition: $ duration $ func $ property;
-    transition: $ duration $ func $ property;
+    -webkit-transition: 0.5s ease all;
+    transition: 0.5s ease all;
   }
 
 #contact-form button:hover {
@@ -836,7 +836,7 @@ footer {
 
 /*
     ---------------------------------------
-    ----- 11. Optional Section Styles -----
+    ----- Optional Section Styles -----
     ---------------------------------------
 */
 
@@ -891,7 +891,7 @@ footer {
 
 /*
     -----------------------------
-    ----- 12. Media Queries -----
+    ----- Media Queries -----
     -----------------------------
 */
 
