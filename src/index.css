@@ -3,72 +3,93 @@
   text-align: center;
 }
 
-.App-logo {
-   -webkit-animation: App-logo-spin infinite 20s linear;
-           animation: App-logo-spin infinite 20s linear;
-   height: 80px;
- }
+  .App-logo {
+    -webkit-animation: App-logo-spin infinite 20s linear;
+            animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+  }
 
-.App-header {
-   background-color: #222;
-   height: 150px;
-   padding: 20px;
-   color: white;
- }
+  .App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+  }
 
-.App-title {
-   font-size: 1.5em;
- }
+  .App-title {
+    font-size: 1.5em;
+  }
 
-.App-intro {
-   font-size: large;
- }
+  .App-intro {
+    font-size: large;
+  }
+
 @-webkit-keyframes App-logo-spin {
-  from { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
-  to { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
+
 @keyframes App-logo-spin {
-  from { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
-  to { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
+
 :root {
-    --fontSize: 1rem;
-    --mainColor: rgba(18,52,86,0.47059);
-    --secondaryColor: rgba(102, 51, 153, 0.9);
+  --fontSize: 1rem;
+  --mainColor: rgba(18,52,86,0.47059);
+  --secondaryColor: rgba(102, 51, 153, 0.9);
 }
+
 html {
-    overflow-x: hidden;
-    overflow-y: auto;
-    overflow: hidden auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+  overflow: hidden auto;
 }
+
 @media (max-width: 50rem) {
-    body {
-        color: rgba(18,52,86,0.47059);
-        color: var(--mainColor);
-        font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
-        font-size: 1rem;
-        font-size: var(--fontSize);
-        line-height: calc(1rem * 1.5);
-        line-height: calc(var(--fontSize) * 1.5);
-        word-wrap: break-word;
-        padding-left: calc(1rem / 2 + 1px);
-        padding-right: calc(1rem / 2 + 1px);
-        padding-left: calc(var(--fontSize) / 2 + 1px);
-        padding-right: calc(var(--fontSize) / 2 + 1px);
-    }
+  body {
+    color: rgba(18,52,86,0.47059);
+    color: var(--mainColor);
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, serif;
+    font-size: 1rem;
+    font-size: var(--fontSize);
+    line-height: calc(1rem * 1.5);
+    line-height: calc(var(--fontSize) * 1.5);
+    word-wrap: break-word;
+    padding-left: calc(1rem / 2 + 1px);
+    padding-right: calc(1rem / 2 + 1px);
+    padding-left: calc(var(--fontSize) / 2 + 1px);
+    padding-right: calc(var(--fontSize) / 2 + 1px);
+  }
 }
+
 h1,h2,h3,h4,h5,h6 {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
+
 header.App-header, .App-header.main {
-    /*background-image: image-set('./img/background.jpg' 1x, './img/background-2x.jpg' 2x);*/
-    background-size: contain;
+  /*background-image: image-set('./img/background.jpg' 1x, './img/background-2x.jpg' 2x);*/
+  background-size: contain;
 }
+
 a {
-    color: #639;
+  color: #639;
 }
+
 a:hover {
-     color: color-mod(rgba(102, 51, 153, 0.9) b(15%) a(75%));
-     color: color-mod(var(--secondaryColor) b(15%) a(75%));
- }
+    color: color-mod(rgba(102, 51, 153, 0.9) b(15%) a(75%));
+    color: color-mod(var(--secondaryColor) b(15%) a(75%));
+  }
