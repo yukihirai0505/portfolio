@@ -5,8 +5,6 @@ class Experience extends Component {
     super(props)
   }
 
-  async componentDidMount() {}
-
   render() {
     return (
       <div id="experience" className="background-alt">
@@ -15,25 +13,19 @@ class Experience extends Component {
           <div data-date="September 2015 – September 2016">
             <h3>Employer Name</h3>
             <h4>Job Title</h4>
-            <p>
-              Hoge
-            </p>
+            <p>Hoge</p>
           </div>
 
           <div data-date="September 2015 – September 2016">
             <h3>Employer Name</h3>
             <h4>Job Title</h4>
-            <p>
-              Hoge
-            </p>
+            <p>Hoge</p>
           </div>
 
           <div data-date="September 2015 – September 2016">
             <h3>Employer Name</h3>
             <h4>Job Title</h4>
-            <p>
-              Hoge
-            </p>
+            <p>Hoge</p>
           </div>
         </div>
       </div>

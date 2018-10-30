@@ -14,28 +14,8 @@
     ---------------------
 */
 
-@define-mixin transition $duration: 0.5s, $func: ease, $property: all {
-  transition: $duration $func $property;
-}
-
-@define-mixin placeholder {
-  &::-webkit-input-placeholder {
-    @content ;
-  }
-
-  &:-moz-placeholder {
-    @content ;
-    opacity: 1;
-  }
-
-  &::-moz-placeholder {
-    @content ;
-    opacity: 1;
-  }
-
-  &:-ms-input-placeholder {
-    @content ;
-  }
+@define-mixin transition {
+  transition: 0.5s ease all;
 }
 
 /*
@@ -54,7 +34,6 @@ body {
   }
 }
 
-// No JS styles
 .no-js {
   #experience-timeline {
     > div {
@@ -355,7 +334,7 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(var(--baseColorHover) 0.8);
+  background: rgba(var(--baseColorHover), 0.8);
   z-index: 1;
 }
 
@@ -461,7 +440,7 @@ footer {
     width: 3px;
     height: 40px;
     background: var(--baseColor);
-    background: linear-gradient(to bottom, var(--baseColor), rgba(var(--baseColor) 0));
+    background: linear-gradient(to bottom, var(--baseColor), rgba(var(--baseColor), 0));
     top: 100%;
     left: 303px;
   }
@@ -718,9 +697,6 @@ footer {
     background: color(var(--baseColor) shade(15%));
     color: #fff;
     @add-mixin transition;
-    @add-mixin placeholder {
-      color: #fff;
-    }
 
     &:focus {
       outline: none;
@@ -806,7 +782,6 @@ footer {
     -----------------------------
 */
 
-// Collapse timeline
 @media only screen and (max-width: 750px) {
   #experience-timeline {
     &:before,
@@ -833,7 +808,6 @@ footer {
   }
 }
 
-// Medium Devices
 @media only screen and (max-width: 992px) {
   #lead {
     height: auto;
@@ -866,7 +840,6 @@ footer {
   }
 }
 
-// Small Devices
 @media only screen and (max-width: 768px) {
   header {
     position: fixed;
@@ -941,7 +914,6 @@ footer {
   }
 }
 
-// Extra Small Devices
 @media only screen and (max-width: 480px) {
   #lead-content {
     h1 {

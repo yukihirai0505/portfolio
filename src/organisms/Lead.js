@@ -6,8 +6,6 @@ class Lead extends Component {
     super(props)
   }
 
-  async componentDidMount() {}
-
   render() {
     return (
       <div id="lead">
@@ -20,12 +18,12 @@ class Lead extends Component {
         </div>
         {/* End #lead-content */}
 
-        <div id="lead-overlay"/>
+        <div id="lead-overlay" />
 
         <div id="lead-down">
-            <span>
-              <FontAwesomeIcon icon="chevron-down"/>
-            </span>
+          <span>
+            <FontAwesomeIcon icon="chevron-down" />
+          </span>
         </div>
         {/* End #lead-down */}
       </div>

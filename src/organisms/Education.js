@@ -5,8 +5,6 @@ class Education extends Component {
     super(props)
   }
 
-  async componentDidMount() {}
-
   render() {
     return (
       <div id="education">
@@ -15,9 +13,7 @@ class Education extends Component {
           <h3>University of Hosei</h3>
           <span className="education-date">Sept 2016 - Sept 2017</span>
           <h4>Bachelor of Science in Computer Science</h4>
-          <p>
-            Hoge
-          </p>
+          <p>Hoge</p>
         </div>
         {/* End .education-block */}
 

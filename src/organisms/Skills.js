@@ -5,8 +5,6 @@ class Skills extends Component {
     super(props)
   }
 
-  async componentDidMount() {}
-
   render() {
     return (
       <div id="skills">

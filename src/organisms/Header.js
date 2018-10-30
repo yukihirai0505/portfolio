@@ -6,13 +6,11 @@ class Header extends Component {
     super(props)
   }
 
-  async componentDidMount() {}
-
   render() {
     return (
       <header>
         <div id="mobile-menu-close">
-          <span>Close</span> <FontAwesomeIcon icon="times"/>
+          <span>Close</span> <FontAwesomeIcon icon="times" />
         </div>
         <ul id="menu" className="shadow">
           <li>

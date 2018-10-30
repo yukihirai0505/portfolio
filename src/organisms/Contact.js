@@ -5,8 +5,6 @@ class Contact extends Component {
     super(props)
   }
 
-  async componentDidMount() {}
-
   render() {
     return (
       <div id="contact">

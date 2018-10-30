@@ -5,8 +5,6 @@ class About extends Component {
     super(props)
   }
 
-  async componentDidMount() {}
-
   render() {
     return (
       <div id="about">
@@ -16,9 +14,7 @@ class About extends Component {
               <h2 className="heading">About Me</h2>
             </div>
             <div className="col-md-8">
-              <p>
-                Yuki Hirai
-              </p>
+              <p>Yuki Hirai</p>
             </div>
           </div>
         </div>

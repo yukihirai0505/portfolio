@@ -5,8 +5,6 @@ class Projects extends Component {
     super(props)
   }
 
-  async componentDidMount() {}
-
   render() {
     return (
       <div id="projects" className="background-alt">
@@ -15,16 +13,15 @@ class Projects extends Component {
           <div className="row">
             <div className="project shadow-large">
               <div className="project-image">
-                <img src="images/project.jpg"/>
+                <img src="images/project.jpg" />
               </div>
               {/* End .project-image */}
               <div className="project-info">
                 <h3>Project Name Here</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis
-                  ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit
-                  amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet
-                  placerat.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex.
+                  Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet
+                  vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
                 </p>
                 <a href="#">View Project</a>
               </div>
@@ -34,16 +31,15 @@ class Projects extends Component {
 
             <div className="project shadow-large">
               <div className="project-image">
-                <img src="images/project.jpg"/>
+                <img src="images/project.jpg" />
               </div>
               {/* End .project-image */}
               <div className="project-info">
                 <h3>Project Name Here</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis
-                  ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit
-                  amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet
-                  placerat.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex.
+                  Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet
+                  vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
                 </p>
                 <a href="#">View Project</a>
               </div>
