@@ -1,28 +1,35 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './index.css';
+import React, { Component } from 'react'
+import './index.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Footer from './organisms/Footer'
+import Contact from './organisms/Contact'
+import Skills from './organisms/Skills'
+import Projects from './organisms/Projects'
+import Education from './organisms/Education'
+import Experience from './organisms/Experience'
+import About from './organisms/About'
+import Lead from './organisms/Lead'
+import Header from './organisms/Header'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+        <div id="mobile-menu-open" className="shadow-large">
+          <FontAwesomeIcon icon="bars"/>
+        </div>
+        <Header/>
+        <Lead/>
+        <About/>
+        <Experience/>
+        <Education/>
+        <Projects/>
+        <Skills/>
+        <Contact/>
+        <Footer/>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
