@@ -19,7 +19,6 @@ class Contact extends Component {
             <button type="submit">Send</button>
           </form>
         </div>
-        {/* End #contact-form */}
       </div>
     )
   }

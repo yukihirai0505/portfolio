@@ -12,25 +12,23 @@ class Education extends Component {
       <div id="education">
         <h2 className="heading">Education</h2>
         <div className="education-block">
-          <h3>University of Ottawa</h3>
+          <h3>University of Hosei</h3>
           <span className="education-date">Sept 2016 - Sept 2017</span>
           <h4>Bachelor of Science in Computer Science</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex.
-            Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel
-            lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+            Hoge
           </p>
         </div>
         {/* End .education-block */}
 
         <div className="education-block">
-          <h3>University of Ottawa</h3>
+          <h3>University of Hoge</h3>
           <span className="education-date">Sept 2016 - Sept 2017</span>
           <h4>Bachelor of Science in Computer Science</h4>
           <ul>
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Hoge</li>
+            <li>Hoge</li>
+            <li>Hoge</li>
           </ul>
         </div>
         {/* End .education-block */}

@@ -16,9 +16,7 @@ class Experience extends Component {
             <h3>Employer Name</h3>
             <h4>Job Title</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex.
-              Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet
-              vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+              Hoge
             </p>
           </div>
 
@@ -26,9 +24,7 @@ class Experience extends Component {
             <h3>Employer Name</h3>
             <h4>Job Title</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex.
-              Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet
-              vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+              Hoge
             </p>
           </div>
 
@@ -36,9 +32,7 @@ class Experience extends Component {
             <h3>Employer Name</h3>
             <h4>Job Title</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex.
-              Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet
-              vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+              Hoge
             </p>
           </div>
         </div>

@@ -5,6 +5,7 @@ module.exports = {
       stage: 1
     }),
     require('postcss-nested'),
-    require('autoprefixer')
+    require('autoprefixer'),
+    require('postcss-mixins')
   ]
 }
