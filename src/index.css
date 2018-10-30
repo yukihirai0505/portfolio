@@ -339,8 +339,8 @@ footer {
   }
 
 #lead-content h2 {
-    color: color(#3498db, tint(25%));
-    color: color(#3498db, tint(25%));
+    color: rgb(103, 178, 228);
+    color: color(#3498db tint(25%));
     font-weight: 500;
     font-size: 2.25em;
     margin-bottom: 15px;
@@ -354,8 +354,7 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(rgb(47, 137, 197), 0.8);
-  background: rgba(color(#3498db shade(10%)), 0.8);
+  background: rgba(33, 125, 187, 0.8);
   z-index: 1;
 }
 
@@ -377,8 +376,8 @@ footer {
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    border: 3px solid color(#3498db, tint(25%));
-    border: 3px solid color(#3498db, tint(25%));
+    border: 3px solid rgb(103, 178, 228);
+    border: 3px solid color(#3498db tint(25%));
     text-align: center;
   }
 
@@ -494,8 +493,8 @@ footer {
     background: #3498db;
     background: -webkit-linear-gradient(top, #3498db, rgba(52,152,219, 0));
     background: linear-gradient(to bottom, #3498db, rgba(52,152,219, 0));
-    background: -webkit-linear-gradient(top, #3498db, rgba(#3498db, 0));
-    background: linear-gradient(to bottom, #3498db, rgba(#3498db, 0));
+    background: -webkit-linear-gradient(top, #3498db, rgba(52,152,219, 0));
+    background: linear-gradient(to bottom, #3498db, rgba(52,152,219, 0));
     top: 100%;
     left: 303px;
   }

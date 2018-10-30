@@ -2,8 +2,7 @@ module.exports = () => ({
   plugins: {
     'postcss-import': {},
     'postcss-preset-env': {
-      stage: 1,
-      'postcss-custom-properties': { preserve: false }
+      stage: 1
     },
     'postcss-nested': {},
     'autoprefixer': {},
@@ -12,6 +11,6 @@ module.exports = () => ({
     'postcss-color-function': {},
     'postcss-custom-properties': {
       preserve: false
-    }
+    },
   }
 })
