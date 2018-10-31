@@ -4,13 +4,18 @@ module.exports = () => ({
     'postcss-preset-env': {
       stage: 1
     },
-    'postcss-nested': {},
+
+    'postcss-at-rules-variables': {},
+    'postcss-custom-properties': {
+      preserve: false
+    },
+
+    'postcss-for': {},
+    'postcss-calc': {},
     'autoprefixer': {},
     'postcss-mixins': {},
     'postcss-hexrgba': {},
     'postcss-color-function': {},
-    'postcss-custom-properties': {
-      preserve: false
-    },
+    'postcss-nested': {}
   }
 })

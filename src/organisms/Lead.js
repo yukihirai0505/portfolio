@@ -19,18 +19,13 @@ class Lead extends Component {
             <span>E</span><span>n</span><span>g</span><span>n</span><span>e</span><span>e</span><span>r</span>
           </h2>
           <div className="mission">
-            <div className="container">
-              <p className="text">
-                Mission:
-              </p>
-              <ul className="list">
-                <li className="item">世界中の人に愛されるサービスをつくる</li>
-                <li className="item">世の中に大きいインパクト与える</li>
-                <li className="item">後世に語り継がれる勇姿を残す</li>
-                <li className="item">チャレンジしまくる</li>
-                <li className="item">思いついたら即つくる</li>
-              </ul>
-            </div>
+            <ul>
+              <li>世界中の人に愛されるサービスをつくる</li>
+              <li>世の中に大きいインパクト与える</li>
+              <li>後世に語り継がれる勇姿を残す</li>
+              <li>チャレンジしまくる</li>
+              <li>思いついたら即つくる</li>
+            </ul>
           </div>
           {/*
           <a href="#" className="btn-rounded-white">
