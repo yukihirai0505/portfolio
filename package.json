@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "https://yukihirai0505.github.io/portfolio",
   "dependencies": {
-    "@babel/runtime": "^7.1.2",
     "@fortawesome/fontawesome-svg-core": "^1.2.7",
     "@fortawesome/free-brands-svg-icons": "^5.4.2",
     "@fortawesome/free-solid-svg-icons": "^5.4.2",
