@@ -17,6 +17,7 @@ jobs:
       - run:
           name: Install dependencies
           command: |
+            npm install -g create-react-app
             npm install
       - run:
           name: Build
