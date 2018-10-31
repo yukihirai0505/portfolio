@@ -685,6 +685,7 @@
             transform: none;
     left: auto;
     top: auto;
+
   }
 
     #lead-content h1 {
@@ -1123,19 +1124,12 @@
     opacity: 1;
   }
 }.mission ul {
-    width: 300px;
-    position: absolute;
-    left: 50%;
-    margin-top: 25px;
-    margin-left: -150px;
+    padding: 0;
+    list-style-type: none;
   }.mission li {
-    position: relative;
-    display: block;
-    border: 1px solid hotpink;
+    color: #fff;
+    font-size: 1em;
     margin-bottom: 5px;
-    padding: 10px;
-    text-align: center;
-    text-transform: uppercase;
     -webkit-animation: fadeIn 0.5s linear;
             animation: fadeIn 0.5s linear;
     -webkit-animation-fill-mode: both;

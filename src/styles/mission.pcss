@@ -1,24 +1,15 @@
 .mission {
   ul {
-    width: 300px;
-    position: absolute;
-    left: 50%;
-    margin-top: 25px;
-    margin-left: -150px;
+    padding: 0;
+    list-style-type: none;
   }
-
   li {
-    position: relative;
-    display: block;
-    border: 1px solid hotpink;
+    color: #fff;
+    font-size: 1em;
     margin-bottom: 5px;
-    padding: 10px;
-    text-align: center;
-    text-transform: uppercase;
     animation: fadeIn 0.5s linear;
     animation-fill-mode: both;
   }
-
   @for $i from 1 to 5 {
     li:nth-child($(i)) {
       animation-delay: calc(.25 * $(i))s;
