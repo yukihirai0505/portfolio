@@ -11,6 +11,7 @@ import {
   faTwitter,
   faGooglePlus
 } from '@fortawesome/free-brands-svg-icons'
+import * as Scroll from 'react-scroll'
 
 library.add(faChevronUp, faGithub, faStackOverflow, faLinkedin, faFacebook, faTwitter, faGooglePlus)
 
@@ -28,7 +29,9 @@ class Footer extends Component {
               <p>Copyright &copy; 2018 Yuki Hirai</p>
             </div>
             <div className="col-sm-2 top">
-              <span id="to-top">
+              <span id="to-top" onClick={() => {
+                Scroll.animateScroll.scrollToTop()
+              }}>
                 <FontAwesomeIcon icon="chevron-up" />
               </span>
             </div>

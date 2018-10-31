@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import * as Scroll from 'react-scroll'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class Lead extends Component {
@@ -37,7 +38,9 @@ class Lead extends Component {
 
         <div id="lead-overlay"/>
 
-        <div id="lead-down">
+        <div id="lead-down" onClick={() => {
+          Scroll.animateScroll.scrollToBottom()
+        }}>
           <span>
             <FontAwesomeIcon icon="chevron-down"/>
           </span>
