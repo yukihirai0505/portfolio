@@ -17,7 +17,7 @@ class Lead extends Component {
           </h1>
           <h2 className="animate six">
             <span>S</span><span>o</span><span>f</span><span>t</span><span>w</span><span>a</span><span>r</span><span>e</span> &nbsp;
-            <span>E</span><span>n</span><span>g</span><span>n</span><span>e</span><span>e</span><span>r</span>
+            <span>E</span><span>n</span><span>g</span><span>i</span><span>n</span><span>e</span><span>e</span><span>r</span>
           </h2>
           <div className="mission">
             <ul>

@@ -13,9 +13,8 @@ class Projects extends Component {
           <div className="row">
             <div className="project shadow-large">
               <div className="project-image">
-                <img src="images/project.jpg" />
+                <img src="https://yabaiwebyasan.com/wp-content/uploads/2018/10/parawan.jpg" />
               </div>
-              {/* End .project-image */}
               <div className="project-info">
                 <h3>Project Name Here</h3>
                 <p>
@@ -25,15 +24,12 @@ class Projects extends Component {
                 </p>
                 <a href="#">View Project</a>
               </div>
-              {/* End .project-info */}
             </div>
-            {/* End .project */}
 
             <div className="project shadow-large">
               <div className="project-image">
-                <img src="images/project.jpg" />
+                <img src="https://yabaiwebyasan.com/wp-content/uploads/2018/10/parawan.jpg" />
               </div>
-              {/* End .project-image */}
               <div className="project-info">
                 <h3>Project Name Here</h3>
                 <p>
@@ -43,9 +39,7 @@ class Projects extends Component {
                 </p>
                 <a href="#">View Project</a>
               </div>
-              {/* End .project-info */}
             </div>
-            {/* End .project */}
           </div>
         </div>
       </div>

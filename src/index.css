@@ -412,8 +412,7 @@
   float: left;
   z-index: 99;
   margin-left: 280px;
-}.vtimeline-icon i {
-    display: block;
+}.vtimeline-icon svg {
     font-size: 2em;
     margin-top: 10px;
   }.vtimeline-date {

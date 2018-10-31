@@ -10,24 +10,18 @@ class Education extends Component {
       <div id="education">
         <h2 className="heading">Education</h2>
         <div className="education-block">
-          <h3>University of Hosei</h3>
-          <span className="education-date">Sept 2016 - Sept 2017</span>
-          <h4>Bachelor of Science in Computer Science</h4>
-          <p>Hoge</p>
+          <h3>University of HOSEI</h3>
+          <span className="education-date">Apr 2009 - Mar 2013</span>
+          <h4>Bachelor of Laws</h4>
+          <p>:)</p>
         </div>
-        {/* End .education-block */}
 
         <div className="education-block">
-          <h3>University of Hoge</h3>
-          <span className="education-date">Sept 2016 - Sept 2017</span>
-          <h4>Bachelor of Science in Computer Science</h4>
-          <ul>
-            <li>Hoge</li>
-            <li>Hoge</li>
-            <li>Hoge</li>
-          </ul>
+          <h3>Nexseed</h3>
+          <span className="education-date">Oct 2014 - Mar 2015</span>
+          <h4>English & Programming School</h4>
+          <p>I leaned how to use Objective-C to make iOS applications and also CakePHP to make WEB applications.</p>
         </div>
-        {/* End .education-block */}
       </div>
     )
   }
