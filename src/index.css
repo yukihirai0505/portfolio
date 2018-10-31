@@ -1135,20 +1135,20 @@
     -webkit-animation-fill-mode: both;
             animation-fill-mode: both;
   }.mission li:nth-child(1) {
-      -webkit-animation-delay: 0.25s;
-              animation-delay: 0.25s;
-    }.mission li:nth-child(2) {
       -webkit-animation-delay: 0.5s;
               animation-delay: 0.5s;
-    }.mission li:nth-child(3) {
-      -webkit-animation-delay: 0.75s;
-              animation-delay: 0.75s;
-    }.mission li:nth-child(4) {
+    }.mission li:nth-child(2) {
       -webkit-animation-delay: 1s;
               animation-delay: 1s;
+    }.mission li:nth-child(3) {
+      -webkit-animation-delay: 1.5s;
+              animation-delay: 1.5s;
+    }.mission li:nth-child(4) {
+      -webkit-animation-delay: 2s;
+              animation-delay: 2s;
     }.mission li:nth-child(5) {
-      -webkit-animation-delay: 1.25s;
-              animation-delay: 1.25s;
+      -webkit-animation-delay: 2.5s;
+              animation-delay: 2.5s;
     }@-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
