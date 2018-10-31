@@ -23,6 +23,7 @@ jobs:
           command: |
             git config --global user.email "yukihirai0505@gmail.com"
             git config --global user.name "Yuki Hirai"
+            unset CI
             yarn deploy
       - save_cache:
           key: npm-cache-v1-{{ .Branch }}-{{ checksum "./package.json" }}
