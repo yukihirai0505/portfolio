@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import * as Scroll from 'react-scroll'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { withNamespaces } from 'react-i18next'
 
 class Lead extends Component {
   constructor(props) {
@@ -8,6 +9,7 @@ class Lead extends Component {
   }
 
   render() {
+    const { t } = this.props
     return (
       <div id="lead">
         <div id="lead-content">
@@ -16,8 +18,7 @@ class Lead extends Component {
             <span>H</span><span>i</span><span>r</span><span>a</span><span>i</span>
           </h1>
           <h2 className="animate six">
-            <span>S</span><span>o</span><span>f</span><span>t</span><span>w</span><span>a</span><span>r</span><span>e</span> &nbsp;
-            <span>E</span><span>n</span><span>g</span><span>i</span><span>n</span><span>e</span><span>e</span><span>r</span>
+            {t('lead.job').split('').map(char => !char.match(/[^\s]/) ? char : <span>{char}</span>)}
           </h2>
           <div className="mission">
             <ul>
@@ -51,4 +52,4 @@ class Lead extends Component {
   }
 }
 
-export default Lead
+export default withNamespaces('translation')(Lead)

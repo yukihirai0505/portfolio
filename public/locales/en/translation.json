@@ -13,5 +13,8 @@
       "skills": "Skills",
       "contact": "Contact"
     }
+  },
+  "lead": {
+    "job": "Software Engineer"
   }
 }

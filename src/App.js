@@ -9,7 +9,6 @@ import Experience from './organisms/Experience'
 import About from './organisms/About'
 import Lead from './organisms/Lead'
 import Header from './organisms/Header'
-import { withNamespaces } from 'react-i18next'
 
 class App extends Component {
 
@@ -18,7 +17,6 @@ class App extends Component {
   }
 
   render() {
-    const { t } = this.props
     return (
       <div>
         <Header/>
@@ -35,4 +33,4 @@ class App extends Component {
   }
 }
 
-export default withNamespaces('translation')(App)
+export default App
