@@ -8,5 +8,5 @@ export const skills = {
     'HTML', 'CSS', 'JavaScript', 'jQuery', 'React.js', 'Redux'
   ],
   editor: ['Atom', 'Visual Studio Code', 'PHPStorm', 'IntelliJ', 'vim'],
-  others: ['GitHub', 'Nginx', 'AWS', 'New Relic', 'Docker', 'Jenkins', 'fabric', 'ansible', 'firebase']
+  other: ['GitHub', 'Nginx', 'AWS', 'New Relic', 'Docker', 'Jenkins', 'fabric', 'ansible', 'firebase']
 }

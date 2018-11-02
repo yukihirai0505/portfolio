@@ -18,8 +18,8 @@ class Experience extends Component {
       <div id="experience" className="background-alt">
         <h2 className="heading">Experience</h2>
         <div id="experience-timeline">
-          {experiences.map(experience => {
-            return (<div className="vtimeline-point">
+          {experiences.map((experience, key) => {
+            return (<div key={key} className="vtimeline-point">
               <div className="vtimeline-icon"><FontAwesomeIcon icon="map-marker"/></div>
               <div className="vtimeline-block"><span className="vtimeline-date">{experience.term}</span>
                 <div data-date={experience.term} className="vtimeline-content">

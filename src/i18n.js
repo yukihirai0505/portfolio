@@ -3,6 +3,8 @@ import Backend from 'i18next-xhr-backend'
 import LanguageDetector from 'i18next-browser-languagedetector'
 import { reactI18nextModule } from 'react-i18next'
 
+const isProd = process.env.NODE_ENV === 'production'
+
 i18n
 // load translation using xhr -> see /public/locales
 // learn more: https://github.com/i18next/i18next-xhr-backend
@@ -18,12 +20,14 @@ i18n
   .init({
     fallbackLng: 'en',
     whitelist: ['en', 'ja'],
-    debug: true,
+    debug: !isProd,
 
     interpolation: {
       escapeValue: false // not needed for react as it escapes by default
     },
-
+    backend: {
+      loadPath: isProd ? '/portfolio/locales/{{lng}}/{{ns}}.json' : '/locales/{{lng}}/{{ns}}.json'
+    },
     // special options for react-i18next
     // learn more: https://react.i18next.com/components/i18next-instance
     react: {

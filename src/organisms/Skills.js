@@ -1,6 +1,8 @@
 /* eslint-disable no-useless-constructor */
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 import { skills } from '../consts/skills'
+import { withNamespaces } from 'react-i18next'
+
 
 class Skills extends Component {
   constructor(props) {
@@ -8,35 +10,21 @@ class Skills extends Component {
   }
 
   render() {
+    const { t } = this.props
     return (
       <div id="skills">
-        <h2 className="heading">Programming Language</h2>
-        <ul>
-          {skills.programming.map(e => <li>{e}</li>)}
-        </ul>
-        <h2 className="heading">Database</h2>
-        <ul>
-          {skills.database.map(e => <li>{e}</li>)}
-        </ul>
-        <h2 className="heading">Operating System</h2>
-        <ul>
-          {skills.operating.map(e => <li>{e}</li>)}
-        </ul>
-        <h2 className="heading">Web Technologies</h2>
-        <ul>
-          {skills.web.map(e => <li>{e}</li>)}
-        </ul>
-        <h2 className="heading">Editor/IDE</h2>
-        <ul>
-          {skills.editor.map(e => <li>{e}</li>)}
-        </ul>
-        <h2 className="heading">Others</h2>
-        <ul>
-          {skills.others.map(e => <li>{e}</li>)}
-        </ul>
+        {Object.keys(skills).map((skill, key) => {
+          return (
+            <Fragment key={key}>
+              <h2 className="heading">{t(`skill.${skill}`)}</h2>
+              <ul>
+                {skills[skill].map((e, _key) => <li key={_key}>{e}</li>)}
+              </ul>
+            </Fragment>)
+        })}
       </div>
     )
   }
 }
 
-export default Skills
+export default withNamespaces('translation')(Skills)

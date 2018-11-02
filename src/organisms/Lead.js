@@ -19,7 +19,7 @@ class Lead extends Component {
             <span>H</span><span>i</span><span>r</span><span>a</span><span>i</span>
           </h1>
           <h2 className="animate six">
-            {t('lead.job').split('').map(char => !char.match(/[^\s]/) ? char : <span>{char}</span>)}
+            {t('lead.job').split('').map((char, key) => !char.match(/[^\s]/) ? char : <span key={key}>{char}</span>)}
           </h2>
           <div className="mission">
             <ul>
@@ -36,7 +36,6 @@ class Lead extends Component {
           </a>
           */}
         </div>
-        {/* End #lead-content */}
 
         <div id="lead-overlay"/>
 
@@ -47,7 +46,6 @@ class Lead extends Component {
             <FontAwesomeIcon icon="chevron-down"/>
           </span>
         </div>
-        {/* End #lead-down */}
       </div>
     )
   }

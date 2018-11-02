@@ -42,11 +42,11 @@ class Header extends Component {
             <span>Close</span> <FontAwesomeIcon icon="times"/>
           </div>
           <ul id="menu" className="shadow">
-            {linkMenu.map(key => {
-              return (<li onClick={() => {
+            {linkMenu.map((menu, key) => {
+              return (<li key={key} onClick={() => {
                 this.setState({ isHeaderActive: false })
               }}>
-                <a href={`#${key}`}>{t(`header.menu.${key}`)}</a>
+                <a href={`#${menu}`}>{t(`header.menu.${menu}`)}</a>
               </li>)
             })}
             {i18n.language === 'en' ?
