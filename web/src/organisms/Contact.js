@@ -23,9 +23,9 @@ class Contact extends Component {
                   headers: {
                     'Content-Type': 'application/x-www-form-urlencoded'
                   },
-                  body: `email=${ReactDOM.findDOMNode(this.refs.email).value}&message=${
-                    encodeURI(ReactDOM.findDOMNode(this.refs.message).value)
-                  }`
+                  body: `email=${ReactDOM.findDOMNode(this.refs.email).value}&message=${encodeURI(
+                    ReactDOM.findDOMNode(this.refs.message).value
+                  )}`
                 }
               ).then(function(response) {
                 response.text().then(function(text) {
