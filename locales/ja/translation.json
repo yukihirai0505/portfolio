@@ -1,0 +1,20 @@
+{
+  "title": "ようこそ",
+  "description": {
+    "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
+    "part2": "Switch language between english and german using buttons above."
+  },
+  "header": {
+    "menu": {
+      "about": "自己紹介",
+      "experience": "経歴",
+      "education": "学歴",
+      "projects": "プロジェクト",
+      "skills": "技術",
+      "contact": "連絡"
+    }
+  },
+  "lead": {
+    "job": "ソフトウェアエンジニア"
+  }
+}
