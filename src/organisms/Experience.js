@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-constructor */
 import React, { Component } from 'react'
 import { experiences } from '../consts/experiences'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

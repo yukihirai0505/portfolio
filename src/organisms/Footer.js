@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-constructor */
 import React, { Component } from 'react'
 import TargetLink from '../atoms/TargetLink'
 import { library } from '@fortawesome/fontawesome-svg-core'

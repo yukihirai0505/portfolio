@@ -98,6 +98,23 @@
       color: #3498db;
       color: #3498db;
       text-decoration: none;
+    }header button {
+    display: block;
+    color: #3498db;
+    color: #3498db;
+    padding: 10px;
+    border: none;
+    width: 100%;
+  }header button:hover {
+      color: rgb(47, 137, 197);
+      color: rgb(47, 137, 197);
+      text-decoration: none;
+      background: #eee;
+      border-radius: 4px;
+    }header button:focus {
+      color: #3498db;
+      color: #3498db;
+      text-decoration: none;
     }header.active {
     display: block;
   }header.sticky {

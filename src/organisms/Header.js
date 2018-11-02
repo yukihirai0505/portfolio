@@ -50,8 +50,8 @@ class Header extends Component {
               </li>)
             })}
             {i18n.language === 'en' ?
-              <li onClick={() => changeLanguage('ja')}><a href="#">日本語</a></li> :
-              <li onClick={() => changeLanguage('en')}><a href="#">English</a></li>
+              <li onClick={() => changeLanguage('ja')}><button>日本語</button></li> :
+              <li onClick={() => changeLanguage('en')}><button>English</button></li>
             }
           </ul>
         </header>

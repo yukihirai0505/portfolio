@@ -1,4 +1,6 @@
-import React, { Component } from 'react'
+/* eslint-disable no-useless-constructor */
+import React, { Component, Fragment } from 'react'
+import { withNamespaces } from 'react-i18next'
 
 class About extends Component {
   constructor(props) {
@@ -6,22 +8,17 @@ class About extends Component {
   }
 
   render() {
+    const { t } = this.props
     return (
       <div id="about">
         <div className="container">
           <div className="row">
             <div className="col-md-4">
-              <h2 className="heading">About Me</h2>
+              <h2 className="heading">{t('about.title')}</h2>
             </div>
             <div className="col-md-8">
-              <p>現在、サーバーサイドエンジニア4年目。
-                「世界中の人々が喜ぶサービスをつくりたい」と思い
-                2014年に人材業界の営業から思い切ってWEB系エンジニアにキャリアチェンジ。
-                要件定義から開発・テスト・セキュリティ監査まで全て対応。
-                とにかく「決めたゴールに突き進む突破力」が武器。
-                友人にも「バルサみたいだな」と言われるくらいです。
-                主にサーバーサイドを担当しておりますが
-                技術に関しては好き嫌いせずに勉強も兼ねて、比較的なんでも触ってます。
+              <p>
+                {t('about.content').split('\n').map((item, key) => <Fragment key={key}>{item}<br/></Fragment>)}
               </p>
             </div>
           </div>
@@ -31,4 +28,4 @@ class About extends Component {
   }
 }
 
-export default About
+export default withNamespaces('translation')(About)

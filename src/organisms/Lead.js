@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-constructor */
 import React, { Component } from 'react'
 import * as Scroll from 'react-scroll'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

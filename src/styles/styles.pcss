@@ -124,6 +124,24 @@ header {
     }
   }
 
+  button {
+    display: block;
+    color: var(--baseColor);
+    padding: 10px;
+    border: none;
+    width: 100%;
+    &:hover {
+      color: var(--baseColorHover);
+      text-decoration: none;
+      background: #eee;
+      border-radius: 4px;
+    }
+    &:focus {
+      color: var(--baseColor);
+      text-decoration: none;
+    }
+  }
+
   &.active {
     display: block;
   }
