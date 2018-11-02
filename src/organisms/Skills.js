@@ -3,7 +3,6 @@ import React, { Component, Fragment } from 'react'
 import { skills } from '../consts/skills'
 import { withNamespaces } from 'react-i18next'
 
-
 class Skills extends Component {
   constructor(props) {
     super(props)
@@ -18,9 +17,12 @@ class Skills extends Component {
             <Fragment key={key}>
               <h2 className="heading">{t(`skill.${skill}`)}</h2>
               <ul>
-                {skills[skill].map((e, _key) => <li key={_key}>{e}</li>)}
+                {skills[skill].map((e, _key) => (
+                  <li key={_key}>{e}</li>
+                ))}
               </ul>
-            </Fragment>)
+            </Fragment>
+          )
         })}
       </div>
     )

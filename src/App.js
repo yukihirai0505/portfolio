@@ -12,7 +12,6 @@ import Lead from './organisms/Lead'
 import Header from './organisms/Header'
 
 class App extends Component {
-
   constructor() {
     super()
   }
@@ -20,15 +19,15 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header/>
-        <Lead/>
-        <About/>
-        <Experience/>
-        <Education/>
-        <Projects/>
-        <Skills/>
-        <Contact/>
-        <Footer/>
+        <Header />
+        <Lead />
+        <About />
+        <Experience />
+        <Education />
+        <Projects />
+        <Skills />
+        <Contact />
+        <Footer />
       </div>
     )
   }

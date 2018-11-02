@@ -8,7 +8,7 @@
 
 @for $i from 1 to 20 {
   .animate span:nth-of-type($(i)) {
-    animation-delay: calc(.05 * $(i))s;
+    animation-delay: calc(0.05 * $(i))s;
   }
 }
 
@@ -17,12 +17,12 @@
 .one span {
   opacity: 0;
   transform: translate(-150px, -50px) rotate(-180deg) scale(3);
-  animation: revolveScale .4s forwards;
+  animation: revolveScale 0.4s forwards;
 }
 
 @keyframes revolveScale {
   60% {
-    transform: translate(20px, 20px) rotate(30deg) scale(.3);
+    transform: translate(20px, 20px) rotate(30deg) scale(0.3);
   }
 
   100% {
@@ -31,18 +31,17 @@
   }
 }
 
-
 /* Animation Two */
 
 .two span {
   opacity: 0;
   transform: translate(200px, -100px) scale(2);
-  animation: ballDrop .3s forwards;
+  animation: ballDrop 0.3s forwards;
 }
 
 @keyframes ballDrop {
   60% {
-    transform: translate(0, 20px) rotate(-180deg) scale(.5);
+    transform: translate(0, 20px) rotate(-180deg) scale(0.5);
   }
 
   100% {
@@ -51,14 +50,12 @@
   }
 }
 
-
 /* Animation Three */
-
 
 .three span {
   opacity: 0;
   transform: translate(-300px, 0) scale(0);
-  animation: sideSlide .5s forwards;
+  animation: sideSlide 0.5s forwards;
 }
 
 @keyframes sideSlide {
@@ -84,14 +81,12 @@
   }
 }
 
-
 /* Animation Four */
-
 
 .four span {
   opacity: 0;
   transform: translate(0, -100px) rotate(360deg) scale(0);
-  animation: revolveDrop .3s forwards;
+  animation: revolveDrop 0.3s forwards;
 }
 
 @keyframes revolveDrop {
@@ -100,7 +95,7 @@
   }
 
   60% {
-    transform: translate(0, 20px) scale(.8) rotate(0deg);
+    transform: translate(0, 20px) scale(0.8) rotate(0deg);
   }
 
   100% {
@@ -109,16 +104,13 @@
   }
 }
 
-
 /* Animation Five */
-
 
 .five span {
   opacity: 0;
   transform: translate(0, -100px) rotate(360deg) scale(0);
-  animation: dropVanish .5s forwards;
+  animation: dropVanish 0.5s forwards;
 }
-
 
 @keyframes dropVanish {
   30% {
@@ -126,7 +118,7 @@
   }
 
   50% {
-    transform: translate(0, 20px) scale(.8) rotate(0deg);
+    transform: translate(0, 20px) scale(0.8) rotate(0deg);
     opacity: 1;
   }
 
@@ -141,17 +133,13 @@
   }
 }
 
-
-
 /* Animation Six */
-
 
 .six span {
   opacity: 0;
   transform: rotate(-180deg) translate(150px, 0);
-  animation: twister .5s forwards;
+  animation: twister 0.5s forwards;
 }
-
 
 @keyframes twister {
   10% {
@@ -163,21 +151,17 @@
   }
 }
 
-
-
 /* Animation Seven */
-
 
 .seven span {
   opacity: 0;
-  transform: translate(-150px, 0) scale(.3);
-  animation: leftRight .5s forwards;
+  transform: translate(-150px, 0) scale(0.3);
+  animation: leftRight 0.5s forwards;
 }
-
 
 @keyframes leftRight {
   40% {
-    transform: translate(50px, 0) scale(.7);
+    transform: translate(50px, 0) scale(0.7);
     opacity: 1;
     color: #348c04;
   }

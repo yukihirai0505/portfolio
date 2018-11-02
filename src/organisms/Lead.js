@@ -11,16 +11,15 @@ class Lead extends Component {
 
   render() {
     const { t } = this.props
+    const strToAnimationStyle = str =>
+      str
+        .split('')
+        .map((char, key) => (!char.match(/[^\s]/) ? char : <span key={key}>{char}</span>))
     return (
       <div id="lead">
         <div id="lead-content">
-          <h1 className="animate seven">
-            <span>Y</span><span>u</span><span>k</span><span>i</span> &nbsp;
-            <span>H</span><span>i</span><span>r</span><span>a</span><span>i</span>
-          </h1>
-          <h2 className="animate six">
-            {t('lead.job').split('').map((char, key) => !char.match(/[^\s]/) ? char : <span key={key}>{char}</span>)}
-          </h2>
+          <h1 className="animate seven">{strToAnimationStyle('Yuki Hirai')}</h1>
+          <h2 className="animate six">{strToAnimationStyle(t('lead.job'))}</h2>
           <div className="mission">
             <ul>
               <li>世界中の人に愛されるサービスをつくる</li>
@@ -37,13 +36,16 @@ class Lead extends Component {
           */}
         </div>
 
-        <div id="lead-overlay"/>
+        <div id="lead-overlay" />
 
-        <div id="lead-down" onClick={() => {
-          Scroll.animateScroll.scrollToBottom()
-        }}>
+        <div
+          id="lead-down"
+          onClick={() => {
+            Scroll.animateScroll.scrollToBottom()
+          }}
+        >
           <span>
-            <FontAwesomeIcon icon="chevron-down"/>
+            <FontAwesomeIcon icon="chevron-down" />
           </span>
         </div>
       </div>

@@ -21,7 +21,10 @@ class Education extends Component {
           <h3>Nexseed</h3>
           <span className="education-date">Oct 2014 - Mar 2015</span>
           <h4>English & Programming School</h4>
-          <p>I leaned how to use Objective-C to make iOS applications and also CakePHP to make WEB applications.</p>
+          <p>
+            I leaned how to use Objective-C to make iOS applications and also CakePHP to make WEB
+            applications.
+          </p>
         </div>
       </div>
     )

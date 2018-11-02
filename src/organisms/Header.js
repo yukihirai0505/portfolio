@@ -2,14 +2,7 @@ import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { withNamespaces } from 'react-i18next'
 
-const linkMenu = [
-  'about',
-  'experience',
-  'education',
-  'projects',
-  'skills',
-  'contact'
-]
+const linkMenu = ['about', 'experience', 'education', 'projects', 'skills', 'contact']
 
 class Header extends Component {
   constructor(props) {
@@ -27,32 +20,46 @@ class Header extends Component {
     const { isHeaderActive } = this.state
 
     const { t, i18n } = this.props
-    const changeLanguage = (lng) => {
+    const changeLanguage = lng => {
       i18n.changeLanguage(lng)
     }
     return (
       <div>
-        <div id="mobile-menu-open" className="shadow-large" onClick={() => {
-          this.setState({ isHeaderActive: true })
-        }}>
-          <FontAwesomeIcon icon="bars"/>
+        <div
+          id="mobile-menu-open"
+          className="shadow-large"
+          onClick={() => {
+            this.setState({ isHeaderActive: true })
+          }}
+        >
+          <FontAwesomeIcon icon="bars" />
         </div>
         <header className={isHeaderActive ? 'active' : ''}>
           <div id="mobile-menu-close" onClick={() => this.closeMenu()}>
-            <span>Close</span> <FontAwesomeIcon icon="times"/>
+            <span>Close</span> <FontAwesomeIcon icon="times" />
           </div>
           <ul id="menu" className="shadow">
             {linkMenu.map((menu, key) => {
-              return (<li key={key} onClick={() => {
-                this.setState({ isHeaderActive: false })
-              }}>
-                <a href={`#${menu}`}>{t(`header.menu.${menu}`)}</a>
-              </li>)
+              return (
+                <li
+                  key={key}
+                  onClick={() => {
+                    this.setState({ isHeaderActive: false })
+                  }}
+                >
+                  <a href={`#${menu}`}>{t(`header.menu.${menu}`)}</a>
+                </li>
+              )
             })}
-            {i18n.language === 'en' ?
-              <li onClick={() => changeLanguage('ja')}><button>日本語</button></li> :
-              <li onClick={() => changeLanguage('en')}><button>English</button></li>
-            }
+            {i18n.language === 'en' ? (
+              <li onClick={() => changeLanguage('ja')}>
+                <button>日本語</button>
+              </li>
+            ) : (
+              <li onClick={() => changeLanguage('en')}>
+                <button>English</button>
+              </li>
+            )}
           </ul>
         </header>
       </div>

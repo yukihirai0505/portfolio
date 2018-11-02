@@ -6,8 +6,8 @@ import { reactI18nextModule } from 'react-i18next'
 const isProd = process.env.NODE_ENV === 'production'
 
 i18n
-// load translation using xhr -> see /public/locales
-// learn more: https://github.com/i18next/i18next-xhr-backend
+  // load translation using xhr -> see /public/locales
+  // learn more: https://github.com/i18next/i18next-xhr-backend
   .use(Backend)
   // detect user language
   // learn more: https://github.com/i18next/i18next-browser-languageDetector
@@ -34,6 +34,5 @@ i18n
       wait: true
     }
   })
-
 
 export default i18n

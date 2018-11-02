@@ -14,13 +14,14 @@ class Projects extends Component {
           <div className="row">
             <div className="project shadow-large">
               <div className="project-image">
-                <img src="https://yabaiwebyasan.com/wp-content/uploads/2018/10/parawan.jpg" alt={"yabai"} />
+                <img
+                  src="https://yabaiwebyasan.com/wp-content/uploads/2018/10/parawan.jpg"
+                  alt={'yabai'}
+                />
               </div>
               <div className="project-info">
                 <h3>ほにゃ</h3>
-                <p>
-                  ほにゃほにゃ
-                </p>
+                <p>ほにゃほにゃ</p>
                 <button>にゃん</button>
               </div>
             </div>

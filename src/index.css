@@ -947,7 +947,6 @@ footer {
             transform: none;
     left: auto;
     top: auto;
-
   }
 
     #lead-content h1 {
@@ -1166,14 +1165,14 @@ footer {
   opacity: 0;
   -webkit-transform: translate(-150px, -50px) rotate(-180deg) scale(3);
           transform: translate(-150px, -50px) rotate(-180deg) scale(3);
-  -webkit-animation: revolveScale .4s forwards;
-          animation: revolveScale .4s forwards;
+  -webkit-animation: revolveScale 0.4s forwards;
+          animation: revolveScale 0.4s forwards;
 }
 
 @-webkit-keyframes revolveScale {
   60% {
-    -webkit-transform: translate(20px, 20px) rotate(30deg) scale(.3);
-            transform: translate(20px, 20px) rotate(30deg) scale(.3);
+    -webkit-transform: translate(20px, 20px) rotate(30deg) scale(0.3);
+            transform: translate(20px, 20px) rotate(30deg) scale(0.3);
   }
 
   100% {
@@ -1185,8 +1184,8 @@ footer {
 
 @keyframes revolveScale {
   60% {
-    -webkit-transform: translate(20px, 20px) rotate(30deg) scale(.3);
-            transform: translate(20px, 20px) rotate(30deg) scale(.3);
+    -webkit-transform: translate(20px, 20px) rotate(30deg) scale(0.3);
+            transform: translate(20px, 20px) rotate(30deg) scale(0.3);
   }
 
   100% {
@@ -1202,14 +1201,14 @@ footer {
   opacity: 0;
   -webkit-transform: translate(200px, -100px) scale(2);
           transform: translate(200px, -100px) scale(2);
-  -webkit-animation: ballDrop .3s forwards;
-          animation: ballDrop .3s forwards;
+  -webkit-animation: ballDrop 0.3s forwards;
+          animation: ballDrop 0.3s forwards;
 }
 
 @-webkit-keyframes ballDrop {
   60% {
-    -webkit-transform: translate(0, 20px) rotate(-180deg) scale(.5);
-            transform: translate(0, 20px) rotate(-180deg) scale(.5);
+    -webkit-transform: translate(0, 20px) rotate(-180deg) scale(0.5);
+            transform: translate(0, 20px) rotate(-180deg) scale(0.5);
   }
 
   100% {
@@ -1221,8 +1220,8 @@ footer {
 
 @keyframes ballDrop {
   60% {
-    -webkit-transform: translate(0, 20px) rotate(-180deg) scale(.5);
-            transform: translate(0, 20px) rotate(-180deg) scale(.5);
+    -webkit-transform: translate(0, 20px) rotate(-180deg) scale(0.5);
+            transform: translate(0, 20px) rotate(-180deg) scale(0.5);
   }
 
   100% {
@@ -1238,8 +1237,8 @@ footer {
   opacity: 0;
   -webkit-transform: translate(-300px, 0) scale(0);
           transform: translate(-300px, 0) scale(0);
-  -webkit-animation: sideSlide .5s forwards;
-          animation: sideSlide .5s forwards;
+  -webkit-animation: sideSlide 0.5s forwards;
+          animation: sideSlide 0.5s forwards;
 }
 
 @-webkit-keyframes sideSlide {
@@ -1302,8 +1301,8 @@ footer {
   opacity: 0;
   -webkit-transform: translate(0, -100px) rotate(360deg) scale(0);
           transform: translate(0, -100px) rotate(360deg) scale(0);
-  -webkit-animation: revolveDrop .3s forwards;
-          animation: revolveDrop .3s forwards;
+  -webkit-animation: revolveDrop 0.3s forwards;
+          animation: revolveDrop 0.3s forwards;
 }
 
 @-webkit-keyframes revolveDrop {
@@ -1313,8 +1312,8 @@ footer {
   }
 
   60% {
-    -webkit-transform: translate(0, 20px) scale(.8) rotate(0deg);
-            transform: translate(0, 20px) scale(.8) rotate(0deg);
+    -webkit-transform: translate(0, 20px) scale(0.8) rotate(0deg);
+            transform: translate(0, 20px) scale(0.8) rotate(0deg);
   }
 
   100% {
@@ -1331,8 +1330,8 @@ footer {
   }
 
   60% {
-    -webkit-transform: translate(0, 20px) scale(.8) rotate(0deg);
-            transform: translate(0, 20px) scale(.8) rotate(0deg);
+    -webkit-transform: translate(0, 20px) scale(0.8) rotate(0deg);
+            transform: translate(0, 20px) scale(0.8) rotate(0deg);
   }
 
   100% {
@@ -1348,8 +1347,8 @@ footer {
   opacity: 0;
   -webkit-transform: translate(0, -100px) rotate(360deg) scale(0);
           transform: translate(0, -100px) rotate(360deg) scale(0);
-  -webkit-animation: dropVanish .5s forwards;
-          animation: dropVanish .5s forwards;
+  -webkit-animation: dropVanish 0.5s forwards;
+          animation: dropVanish 0.5s forwards;
 }
 
 @-webkit-keyframes dropVanish {
@@ -1359,8 +1358,8 @@ footer {
   }
 
   50% {
-    -webkit-transform: translate(0, 20px) scale(.8) rotate(0deg);
-            transform: translate(0, 20px) scale(.8) rotate(0deg);
+    -webkit-transform: translate(0, 20px) scale(0.8) rotate(0deg);
+            transform: translate(0, 20px) scale(0.8) rotate(0deg);
     opacity: 1;
   }
 
@@ -1384,8 +1383,8 @@ footer {
   }
 
   50% {
-    -webkit-transform: translate(0, 20px) scale(.8) rotate(0deg);
-            transform: translate(0, 20px) scale(.8) rotate(0deg);
+    -webkit-transform: translate(0, 20px) scale(0.8) rotate(0deg);
+            transform: translate(0, 20px) scale(0.8) rotate(0deg);
     opacity: 1;
   }
 
@@ -1408,8 +1407,8 @@ footer {
   opacity: 0;
   -webkit-transform: rotate(-180deg) translate(150px, 0);
           transform: rotate(-180deg) translate(150px, 0);
-  -webkit-animation: twister .5s forwards;
-          animation: twister .5s forwards;
+  -webkit-animation: twister 0.5s forwards;
+          animation: twister 0.5s forwards;
 }
 
 @-webkit-keyframes twister {
@@ -1438,16 +1437,16 @@ footer {
 
 .seven span {
   opacity: 0;
-  -webkit-transform: translate(-150px, 0) scale(.3);
-          transform: translate(-150px, 0) scale(.3);
-  -webkit-animation: leftRight .5s forwards;
-          animation: leftRight .5s forwards;
+  -webkit-transform: translate(-150px, 0) scale(0.3);
+          transform: translate(-150px, 0) scale(0.3);
+  -webkit-animation: leftRight 0.5s forwards;
+          animation: leftRight 0.5s forwards;
 }
 
 @-webkit-keyframes leftRight {
   40% {
-    -webkit-transform: translate(50px, 0) scale(.7);
-            transform: translate(50px, 0) scale(.7);
+    -webkit-transform: translate(50px, 0) scale(0.7);
+            transform: translate(50px, 0) scale(0.7);
     opacity: 1;
     color: #348c04;
   }
@@ -1471,8 +1470,8 @@ footer {
 
 @keyframes leftRight {
   40% {
-    -webkit-transform: translate(50px, 0) scale(.7);
-            transform: translate(50px, 0) scale(.7);
+    -webkit-transform: translate(50px, 0) scale(0.7);
+            transform: translate(50px, 0) scale(0.7);
     opacity: 1;
     color: #348c04;
   }

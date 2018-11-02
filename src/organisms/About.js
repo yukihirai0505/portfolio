@@ -18,7 +18,14 @@ class About extends Component {
             </div>
             <div className="col-md-8">
               <p>
-                {t('about.content').split('\n').map((item, key) => <Fragment key={key}>{item}<br/></Fragment>)}
+                {t('about.content')
+                  .split('\n')
+                  .map((item, key) => (
+                    <Fragment key={key}>
+                      {item}
+                      <br />
+                    </Fragment>
+                  ))}
               </p>
             </div>
           </div>

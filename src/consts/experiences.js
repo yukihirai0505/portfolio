@@ -6,7 +6,6 @@ export const experiences = [
     description: 'Staffing Agency for the healthcare industry. I was a sales representative there.'
   },
   {
-
     company: 'Cyberbuzz, Inc(Tokyo, Japan)',
     term: 'Apr 2015 – Now',
     job: 'Software Engineer',

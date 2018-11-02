@@ -7,7 +7,6 @@ import { faMapMarker } from '@fortawesome/free-solid-svg-icons'
 
 library.add(faMapMarker)
 
-
 class Experience extends Component {
   constructor(props) {
     super(props)
@@ -19,18 +18,21 @@ class Experience extends Component {
         <h2 className="heading">Experience</h2>
         <div id="experience-timeline">
           {experiences.map((experience, key) => {
-            return (<div key={key} className="vtimeline-point">
-              <div className="vtimeline-icon"><FontAwesomeIcon icon="map-marker"/></div>
-              <div className="vtimeline-block"><span className="vtimeline-date">{experience.term}</span>
-                <div data-date={experience.term} className="vtimeline-content">
-                  <h3>{experience.company}</h3>
-                  <h4>{experience.job}</h4>
-                  <p>
-                    {experience.description}
-                  </p>
+            return (
+              <div key={key} className="vtimeline-point">
+                <div className="vtimeline-icon">
+                  <FontAwesomeIcon icon="map-marker" />
+                </div>
+                <div className="vtimeline-block">
+                  <span className="vtimeline-date">{experience.term}</span>
+                  <div data-date={experience.term} className="vtimeline-content">
+                    <h3>{experience.company}</h3>
+                    <h4>{experience.job}</h4>
+                    <p>{experience.description}</p>
+                  </div>
                 </div>
               </div>
-            </div>)
+            )
           })}
         </div>
       </div>
