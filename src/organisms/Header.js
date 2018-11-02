@@ -1,5 +1,15 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { withNamespaces } from 'react-i18next'
+
+const linkMenu = [
+  'about',
+  'experience',
+  'education',
+  'projects',
+  'skills',
+  'contact'
+]
 
 class Header extends Component {
   constructor(props) {
@@ -15,6 +25,11 @@ class Header extends Component {
 
   render() {
     const { isHeaderActive } = this.state
+
+    const { t, i18n } = this.props
+    const changeLanguage = (lng) => {
+      i18n.changeLanguage(lng)
+    }
     return (
       <div>
         <div id="mobile-menu-open" className="shadow-large" onClick={() => {
@@ -26,27 +41,18 @@ class Header extends Component {
           <div id="mobile-menu-close" onClick={() => this.closeMenu()}>
             <span>Close</span> <FontAwesomeIcon icon="times"/>
           </div>
-          <ul id="menu" className="shadow" onClick={() => {
-            this.setState({ isHeaderActive: false })
-          }}>
-            <li>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <a href="#experience">Experience</a>
-            </li>
-            <li>
-              <a href="#education">Education</a>
-            </li>
-            <li>
-              <a href="#projects">Projects</a>
-            </li>
-            <li>
-              <a href="#skills">Skills</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
+          <ul id="menu" className="shadow">
+            {linkMenu.map(key => {
+              return (<li onClick={() => {
+                this.setState({ isHeaderActive: false })
+              }}>
+                <a href={`#${key}`}>{t(`header.menu.${key}`)}</a>
+              </li>)
+            })}
+            {i18n.language === 'en' ?
+              <li onClick={() => changeLanguage('ja')}><a href="#">日本語</a></li> :
+              <li onClick={() => changeLanguage('en')}><a href="#">English</a></li>
+            }
           </ul>
         </header>
       </div>
@@ -54,4 +60,4 @@ class Header extends Component {
   }
 }
 
-export default Header
+export default withNamespaces('translation')(Header)
