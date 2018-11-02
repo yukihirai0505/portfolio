@@ -12,10 +12,11 @@ class Skills extends Component {
     const { t } = this.props
     return (
       <div id="skills">
+        <h2 className="heading">{t(`skill.title`)}</h2>
         {Object.keys(skills).map((skill, key) => {
           return (
             <Fragment key={key}>
-              <h2 className="heading">{t(`skill.${skill}`)}</h2>
+              <h3>{t(`skill.stacks.${skill}`)}</h3>
               <ul>
                 {skills[skill].map((e, _key) => (
                   <li key={_key}>{e}</li>
