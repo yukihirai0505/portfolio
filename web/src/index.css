@@ -1162,6 +1162,56 @@ footer {
             animation-delay: 2s;
   }
 
+.animate span:nth-of-type(21) {
+    -webkit-animation-delay: 2.1s;
+            animation-delay: 2.1s;
+  }
+
+.animate span:nth-of-type(22) {
+    -webkit-animation-delay: 2.2s;
+            animation-delay: 2.2s;
+  }
+
+.animate span:nth-of-type(23) {
+    -webkit-animation-delay: 2.3s;
+            animation-delay: 2.3s;
+  }
+
+.animate span:nth-of-type(24) {
+    -webkit-animation-delay: 2.4s;
+            animation-delay: 2.4s;
+  }
+
+.animate span:nth-of-type(25) {
+    -webkit-animation-delay: 2.5s;
+            animation-delay: 2.5s;
+  }
+
+.animate span:nth-of-type(26) {
+    -webkit-animation-delay: 2.6s;
+            animation-delay: 2.6s;
+  }
+
+.animate span:nth-of-type(27) {
+    -webkit-animation-delay: 2.7s;
+            animation-delay: 2.7s;
+  }
+
+.animate span:nth-of-type(28) {
+    -webkit-animation-delay: 2.8s;
+            animation-delay: 2.8s;
+  }
+
+.animate span:nth-of-type(29) {
+    -webkit-animation-delay: 2.9s;
+            animation-delay: 2.9s;
+  }
+
+.animate span:nth-of-type(30) {
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+  }
+
 /* Animation One */
 
 .one span {

@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import * as Scroll from 'react-scroll'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { withNamespaces } from 'react-i18next'
+import { strToAnimationStyle } from '../utils/animation'
 
 class Lead extends Component {
   constructor(props) {
@@ -11,10 +12,7 @@ class Lead extends Component {
 
   render() {
     const { t } = this.props
-    const strToAnimationStyle = str =>
-      str
-        .split('')
-        .map((char, key) => (!char.match(/[^\s]/) ? char : <span key={key}>{char}</span>))
+
     return (
       <div id="lead">
         <div id="lead-content">
