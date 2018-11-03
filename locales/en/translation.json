@@ -42,5 +42,11 @@
       "editor": "Editor/IDE",
       "other": "Others"
     }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "email": "Your email",
+    "message": "Your message",
+    "submit": "Send"
   }
 }
