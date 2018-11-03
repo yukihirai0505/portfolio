@@ -22,6 +22,40 @@
     "title": "About Me",
     "content": "Currently I am working as a server side engineer for four years.\nI changed my career from sales staff in the human resources industry to a software engineer in 2014.\nBecause I thought \"I want to create web services that people around the world are pleased with\".\nAs software engineer, I support everything from requirements definition to software implementation, testing, security check.\nMy strength is \"breakthrough strength to push forward to the determined goal\".\nMy friend says, \"You seem like Barça.\" Barça is a very strong football club.\nIt is not related to programming, but I am very good at playing volleyball ;)"
   },
+  "experience": {
+    "title": "Experience",
+    "companies": [
+      {
+        "term": "Apr 2013 – Oct 2014",
+        "name": "Sanko Group(Tokyo, Japan)",
+        "job": "Sales Representative",
+        "description": "Staffing Agency for the healthcare industry. I was a sales representative there."
+      },
+      {
+        "term": "Apr 2015 – Now",
+        "name": "Cyberbuzz, Inc(Tokyo, Japan)",
+        "job": "Senior Software Engineer",
+        "description": ";)"
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "schools": [
+      {
+        "term": "Apr 2009 - Mar 2013",
+        "name": "HOSEI University",
+        "degree": "Bachelor of Laws",
+        "description": ";)"
+      },
+      {
+        "term": "Oct 2014 - Mar 2015",
+        "name": "Nexseed",
+        "degree": "English & Programming School",
+        "description": "I leaned how to use Objective-C to make iOS applications and also CakePHP to make WEB applications."
+      }
+    ]
+  },
   "project": {
     "title": "Projects",
     "projects": [

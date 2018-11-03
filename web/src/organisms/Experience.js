@@ -1,9 +1,9 @@
 /* eslint-disable no-useless-constructor */
 import React, { Component } from 'react'
-import { experiences } from '../consts/experiences'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faMapMarker } from '@fortawesome/free-solid-svg-icons'
+import { withNamespaces } from 'react-i18next'
 
 library.add(faMapMarker)
 
@@ -13,11 +13,12 @@ class Experience extends Component {
   }
 
   render() {
+    const { t } = this.props
     return (
       <div id="experience" className="background-alt">
-        <h2 className="heading">Experience</h2>
+        <h2 className="heading">{t("experience.title")}</h2>
         <div id="experience-timeline">
-          {experiences.map((experience, key) => {
+          {t('experience.companies', { returnObjects: true }).map((experience, key) => {
             return (
               <div key={key} className="vtimeline-point">
                 <div className="vtimeline-icon">
@@ -26,7 +27,7 @@ class Experience extends Component {
                 <div className="vtimeline-block">
                   <span className="vtimeline-date">{experience.term}</span>
                   <div data-date={experience.term} className="vtimeline-content">
-                    <h3>{experience.company}</h3>
+                    <h3>{experience.name}</h3>
                     <h4>{experience.job}</h4>
                     <p>{experience.description}</p>
                   </div>
@@ -40,4 +41,4 @@ class Experience extends Component {
   }
 }
 
-export default Experience
+export default withNamespaces('translation')(Experience)
