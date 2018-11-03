@@ -10,7 +10,13 @@
     }
   },
   "lead": {
-    "job": "No.1 Software Engineer in the World"
+    "headline": "No.1 Software Engineer in the World",
+    "mission": [
+      "Immediate action",
+      "Challenging Life",
+      "Give big impact to the world",
+      "Create WEB services loved by people around the world"
+    ]
   },
   "about": {
     "title": "About Me",
