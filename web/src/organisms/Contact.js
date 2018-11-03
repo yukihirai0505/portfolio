@@ -39,7 +39,7 @@ class Contact extends Component {
         <div id="contact-form">
           {isFinishContact ? (
             <h2 className="animate seven">
-              {strToAnimationStyle(t('thank you for reaching out to me'))}
+              {strToAnimationStyle(t('contact.thanks'))}
             </h2>
           ) : (
             <form onSubmit={e => this.handleSubmit(e)}>
