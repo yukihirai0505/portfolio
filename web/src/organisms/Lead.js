@@ -17,14 +17,12 @@ class Lead extends Component {
       <div id="lead">
         <div id="lead-content">
           <h1 className="animate seven">{strToAnimationStyle('Yuki Hirai')}</h1>
-          <h2 className="animate six">{strToAnimationStyle(t('lead.job'))}</h2>
+          <h2 className="animate six">{strToAnimationStyle(t('lead.headline'))}</h2>
           <div className="mission">
             <ul>
-              <li>世界中の人に愛されるサービスをつくる</li>
-              <li>世の中に大きいインパクト与える</li>
-              <li>後世に語り継がれる勇姿を残す</li>
-              <li>チャレンジしまくる</li>
-              <li>思いついたら即つくる</li>
+              {t('lead.mission', { returnObjects: true }).map(e => (
+                <li>{e}</li>
+              ))}
             </ul>
           </div>
           {/*
