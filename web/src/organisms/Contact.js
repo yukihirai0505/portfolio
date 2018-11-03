@@ -35,7 +35,7 @@ class Contact extends Component {
     const { isFinishContact } = this.state
     return (
       <div id="contact">
-        <h2>Get in Touch</h2>
+        <h2>{t('contact.title')}</h2>
         <div id="contact-form">
           {isFinishContact ? (
             <h2 className="animate seven">
@@ -43,9 +43,9 @@ class Contact extends Component {
             </h2>
           ) : (
             <form onSubmit={e => this.handleSubmit(e)}>
-              <input type="email" ref="email" placeholder="Your email" required />
-              <textarea name="message" ref="message" placeholder="Your message" required />
-              <button type="submit">Send</button>
+              <input type="email" ref="email" placeholder={t('contact.email')} required/>
+              <textarea name="message" ref="message" placeholder={t('contact.message')} required/>
+              <button type="submit">{t('contact.submit')}</button>
             </form>
           )}
         </div>
