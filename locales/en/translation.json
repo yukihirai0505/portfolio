@@ -47,6 +47,7 @@
     "title": "Get in Touch",
     "email": "Your email",
     "message": "Your message",
-    "submit": "Send"
+    "submit": "Send",
+    "thanks": "Thank you for reaching out to me"
   }
 }
