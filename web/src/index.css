@@ -711,7 +711,15 @@ footer {
 
 .project-info a {
     text-decoration: none;
+    color: #74808a;
+    color: #74808a;
+    padding: 10px;
   }
+
+.project-info a:hover {
+      color: #3498db;
+      color: #3498db;
+    }
 
 .no-image .project-info {
     position: relative;

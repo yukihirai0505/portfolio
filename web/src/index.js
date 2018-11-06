@@ -3,13 +3,16 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faBars, faTimes, faChevronDown } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faTimes, faChevronDown, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
+import {
+  faGithub
+} from '@fortawesome/free-brands-svg-icons'
 
 import * as serviceWorker from './serviceWorker'
 
 import './i18n'
 
-library.add(faBars, faTimes, faChevronDown)
+library.add(faBars, faTimes, faChevronDown, faExternalLinkAlt, faGithub)
 
 ReactDOM.render(<App />, document.getElementById('root'))
 

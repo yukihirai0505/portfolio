@@ -62,14 +62,9 @@
       {
         "img": "./images/twichat.png",
         "url": "https://twichat-85790.firebaseapp.com/",
-        "title": "Blue Skay Twi Chat",
-        "description": "char\nchat\nchat\nchat\nchat"
-      },
-      {
-        "img": "https://yabaiwebyasan.com/wp-content/uploads/2018/10/parawan.jpg",
-        "url": "https://twichat-85790.firebaseapp.com/",
-        "title": "title",
-        "description": "description"
+        "github": "https://github.com/yukihirai0505/twi-chat",
+        "title": "BlueSky TwiChat",
+        "description": "Twitter authentication, a service that can chat in real time with multiple users.\nIf you click anywhere in the browser you can enter the message.\nThis project uses Firebsae and React.js"
       }
     ]
   },

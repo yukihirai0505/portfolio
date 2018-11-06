@@ -5,7 +5,6 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons'
 import {
-  faGithub,
   faStackOverflow,
   faLinkedin,
   faFacebook,
@@ -14,7 +13,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 import * as Scroll from 'react-scroll'
 
-library.add(faChevronUp, faGithub, faStackOverflow, faLinkedin, faFacebook, faTwitter, faGooglePlus)
+library.add(faChevronUp, faStackOverflow, faLinkedin, faFacebook, faTwitter, faGooglePlus)
 
 class Footer extends Component {
   constructor(props) {

@@ -2,6 +2,8 @@
 import React, { Component } from 'react'
 import { withNamespaces } from 'react-i18next'
 import TargetLink from '../atoms/TargetLink'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { nl2br } from '../utils/nl2br'
 
 class Projects extends Component {
   constructor(props) {
@@ -23,8 +25,9 @@ class Projects extends Component {
                   </div>
                   <div className="project-info">
                     <h3>{e.title}</h3>
-                    <p>{e.description}</p>
-                    <TargetLink href={e.url} text={'View More'}/>
+                    <p>{nl2br(e.description)}</p>
+                    {e.url && <TargetLink href={e.url} text={<FontAwesomeIcon icon={'external-link-alt'}/>}/>}
+                    {e.github && <TargetLink href={e.github} text={<FontAwesomeIcon icon={['fab', 'github']} />}/>}
                   </div>
                 </div>
               )

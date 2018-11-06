@@ -1,6 +1,7 @@
 /* eslint-disable no-useless-constructor */
 import React, { Component, Fragment } from 'react'
 import { withNamespaces } from 'react-i18next'
+import { nl2br } from '../utils/nl2br'
 
 class About extends Component {
   constructor(props) {
@@ -18,14 +19,7 @@ class About extends Component {
             </div>
             <div className="col-md-8">
               <p>
-                {t('about.content')
-                  .split('\n')
-                  .map((item, key) => (
-                    <Fragment key={key}>
-                      {item}
-                      <br />
-                    </Fragment>
-                  ))}
+                {nl2br(t('about.content'))}
               </p>
             </div>
           </div>
