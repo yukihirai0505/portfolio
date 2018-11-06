@@ -709,6 +709,10 @@ footer {
     font-size: 0.9em;
   }
 
+.project-info a {
+    text-decoration: none;
+  }
+
 .no-image .project-info {
     position: relative;
     margin: 0;
