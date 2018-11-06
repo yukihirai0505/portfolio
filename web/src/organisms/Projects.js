@@ -1,6 +1,7 @@
 /* eslint-disable no-useless-constructor */
 import React, { Component } from 'react'
 import { withNamespaces } from 'react-i18next'
+import TargetLink from '../atoms/TargetLink'
 
 class Projects extends Component {
   constructor(props) {
@@ -23,7 +24,7 @@ class Projects extends Component {
                   <div className="project-info">
                     <h3>{e.title}</h3>
                     <p>{e.description}</p>
-                    {/*<button>View More</button>*/}
+                    <TargetLink href={e.url} text={'View More'}/>
                   </div>
                 </div>
               )

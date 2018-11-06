@@ -116,6 +116,7 @@ header {
       text-decoration: none;
       background: #eee;
       border-radius: 4px;
+      cursor: pointer;
     }
 
     &:focus {
@@ -135,6 +136,7 @@ header {
       text-decoration: none;
       background: #eee;
       border-radius: 4px;
+      cursor: pointer;
     }
     &:focus {
       color: var(--baseColor);
@@ -601,24 +603,24 @@ footer {
 }
 
 .project {
-  position: relative;
+  width: 100%;
   max-width: 900px;
   margin: 0 auto 30px auto;
-  overflow: hidden;
   background: #fff;
   border-radius: 4px;
 }
 
 .project-image {
   float: left;
+
+  img {
+    width: 300px;
+    height: 300px;
+  }
 }
 
 .project-info {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  margin-left: 300px;
-  padding: 15px;
+  padding: 20px;
 
   h3 {
     font-size: 1.5em;
@@ -753,6 +755,7 @@ footer {
 
     &:hover {
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+      cursor: pointer;
     }
   }
 }
