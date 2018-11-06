@@ -14,7 +14,7 @@
     "mission": [
       "Immediate action",
       "Challenging Life",
-      "Give big impact to the world",
+      "Give a big impact to the world",
       "Create WEB services loved by people around the world"
     ]
   },
@@ -60,7 +60,14 @@
     "title": "Projects",
     "projects": [
       {
+        "img": "./images/twichat.png",
+        "url": "https://twichat-85790.firebaseapp.com/",
+        "title": "Blue Skay Twi Chat",
+        "description": "char\nchat\nchat\nchat\nchat"
+      },
+      {
         "img": "https://yabaiwebyasan.com/wp-content/uploads/2018/10/parawan.jpg",
+        "url": "https://twichat-85790.firebaseapp.com/",
         "title": "title",
         "description": "description"
       }
