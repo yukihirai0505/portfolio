@@ -58,13 +58,19 @@
   },
   "project": {
     "title": "プロジェクト",
+    "term": "開発期間",
     "projects": [
       {
+        "title": "青空TwiChat",
+        "term": "2日",
         "img": "./images/twichat.png",
         "url": "https://twichat-85790.firebaseapp.com/",
         "github": "https://github.com/yukihirai0505/twi-chat",
-        "title": "青空TwiChat",
-        "description": "Twitter認証すると、複数ユーザーでリアルタイムチャットできるサービス。\nブラウザの任意の場所をクリックするとメッセージを入力することができる。\nFirebsaeとReact.jsを使用。"
+        "description": "Twitter認証すると、複数ユーザーでリアルタイムチャットできるサービス。\nブラウザの任意の場所をクリックするとメッセージを入力することができる。",
+        "techs": [
+          "Firebsae",
+          "React.js"
+        ]
       }
     ]
   },

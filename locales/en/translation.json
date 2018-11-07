@@ -58,13 +58,19 @@
   },
   "project": {
     "title": "Projects",
+    "term": "Development",
     "projects": [
       {
+        "title": "BlueSky TwiChat",
+        "term": "2days",
         "img": "./images/twichat.png",
         "url": "https://twichat-85790.firebaseapp.com/",
         "github": "https://github.com/yukihirai0505/twi-chat",
-        "title": "BlueSky TwiChat",
-        "description": "Twitter authentication, a service that can chat in real time with multiple users.\nIf you click anywhere in the browser you can enter the message.\nThis project uses Firebsae and React.js"
+        "description": "Twitter authentication, a service that can chat in real time with multiple users.\nIf you click anywhere in the browser you can enter the message.",
+        "techs": [
+          "Firebsae",
+          "React.js"
+        ]
       }
     ]
   },
