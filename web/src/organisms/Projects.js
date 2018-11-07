@@ -12,22 +12,43 @@ class Projects extends Component {
 
   render() {
     const { t } = this.props
+    const term = t('project.term')
     return (
       <div id="projects" className="background-alt">
         <h2 className="heading">{t('project.title')}</h2>
         <div className="container">
           <div className="row">
-            {t('project.projects', { returnObjects: true }).map(e => {
+            {t('project.projects', { returnObjects: true }).map((e, key) => {
               return (
-                <div className="project shadow-large">
+                <div key={key} className="project shadow-large">
                   <div className="project-image">
-                    <img src={e.img} alt={'yabai'}/>
+                    <img src={e.img} alt={'yabai'} />
                   </div>
                   <div className="project-info">
                     <h3>{e.title}</h3>
+                    {e.term && (
+                      <p>
+                        {term}: {e.term}
+                      </p>
+                    )}
                     <p>{nl2br(e.description)}</p>
-                    {e.url && <TargetLink href={e.url} text={<FontAwesomeIcon icon={'external-link-alt'}/>}/>}
-                    {e.github && <TargetLink href={e.github} text={<FontAwesomeIcon icon={['fab', 'github']} />}/>}
+                    <ul>
+                    {e.techs.map(e => (
+                      <li>{e}</li>
+                    ))}
+                    </ul>
+                    {e.url && (
+                      <TargetLink
+                        href={e.url}
+                        text={<FontAwesomeIcon icon={'external-link-alt'} />}
+                      />
+                    )}
+                    {e.github && (
+                      <TargetLink
+                        href={e.github}
+                        text={<FontAwesomeIcon icon={['fab', 'github']} />}
+                      />
+                    )}
                   </div>
                 </div>
               )

@@ -1,5 +1,5 @@
 /* eslint-disable no-useless-constructor */
-import React, { Component, Fragment } from 'react'
+import React, { Component } from 'react'
 import { withNamespaces } from 'react-i18next'
 import { nl2br } from '../utils/nl2br'
 

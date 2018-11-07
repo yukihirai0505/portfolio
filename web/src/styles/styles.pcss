@@ -620,7 +620,7 @@ footer {
 }
 
 .project-info {
-  padding: 20px;
+  margin-top: 20px;
 
   h3 {
     font-size: 1.5em;
@@ -643,6 +643,22 @@ footer {
     &:hover {
       color: var(--baseColor);
     }
+  }
+
+  ul {
+    padding: 0;
+    list-style-type: none;
+  }
+
+  li {
+    display: inline-block;
+    margin: 7px;
+    padding: 5px 10px;
+    color: var(--heading);
+    background: color(var(--backgroundAlt) shade(5%));
+    list-style: none;
+    cursor: default;
+    font-size: 1.2em;
   }
 }
 

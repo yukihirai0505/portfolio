@@ -691,7 +691,7 @@ footer {
   }
 
 .project-info {
-  padding: 20px;
+  margin-top: 20px;
 }
 
 .project-info h3 {
@@ -720,6 +720,24 @@ footer {
       color: #3498db;
       color: #3498db;
     }
+
+.project-info ul {
+    padding: 0;
+    list-style-type: none;
+  }
+
+.project-info li {
+    display: inline-block;
+    margin: 7px;
+    padding: 5px 10px;
+    color: #374054;
+    color: #374054;
+    background: rgb(230, 230, 233);
+    background: rgb(230, 230, 233);
+    list-style: none;
+    cursor: default;
+    font-size: 1.2em;
+  }
 
 .no-image .project-info {
     position: relative;
