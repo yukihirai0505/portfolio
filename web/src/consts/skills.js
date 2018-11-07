@@ -15,6 +15,8 @@ export const skills = {
   web: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'React.js', 'Redux'],
   editor: ['Atom', 'Visual Studio Code', 'PHPStorm', 'IntelliJ', 'vim'],
   other: [
+    'Redis',
+    'memcached',
     'GitHub',
     'Nginx',
     'AWS',
