@@ -68,7 +68,7 @@
         "github": "https://github.com/yukihirai0505/twi-chat",
         "description": "Twitter認証すると、複数ユーザーでリアルタイムチャットできるサービス。\nブラウザの任意の場所をクリックするとメッセージを入力することができる。",
         "techs": [
-          "Firebsae",
+          "Firebase",
           "React.js"
         ]
       },
