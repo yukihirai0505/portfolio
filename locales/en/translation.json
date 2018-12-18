@@ -71,6 +71,148 @@
           "Firebsae",
           "React.js"
         ]
+      },
+      {
+        "title": "Pochicome",
+        "term": "1 year",
+        "img": "./images/pochicome.png",
+        "url": "https://pochicome.jp/",
+        "description": "The largest monitor site in Japan.\nThis site deals with new products, cosmetics, etc. of famous manufacturers.\nIt's also a service that can save points and exchange with gift cards. \nEveryone can participate easily if they have blogs, Facebook, twitter SNS accounts.",
+        "techs": [
+          "Java",
+          "PlayFramework",
+          "MySQL",
+          "memcached",
+          "AWS"
+        ]
+      },
+      {
+        "title": "Target management system",
+        "term": "3 months",
+        "img": "./images/tegrat.png",
+        "description": "It is a service that allows you to set and review the monthly goals",
+        "techs": [
+          "Java",
+          "PlayFramework",
+          "MySQL",
+          "AWS"
+        ]
+      },
+      {
+        "title": "Organization management system",
+        "term": "3 months",
+        "img": "./images/alibaba.png",
+        "description": "A service that can manage employee information registration and change. By combining with the common authentication service, it is possible to use the same user information with multiple services.",
+        "techs": [
+          "Java",
+          "PlayFramework",
+          "MySQL",
+          "AWS"
+        ]
+      },
+      {
+        "title": "Common authentication service",
+        "term": "3 months",
+        "img": "./images/common_auth.png",
+        "description": "Common authentication service that can be used for different services.\nYou can use the same user information with multiple services.\nUse Google authentication.",
+        "techs": [
+          "Java",
+          "PlayFramework",
+          "MySQL",
+          "AWS"
+        ]
+      },
+      {
+        "title": "cost comparison site",
+        "term": "3 months",
+        "img": "./images/koteihi.jpg",
+        "description": "Launch and development of cheap SIM, electricity rate, broadband\ncomparison site.\nCompare logic of each company and ranking logic developed as WordPress plug-in.",
+        "techs": [
+          "WordPress",
+          "AWS Kusanagi"
+        ]
+      },
+      {
+        "title": "Fashion specialized ASP",
+        "term": "4 months",
+        "img": "./images/hashstyle.png",
+        "description": "Launch development of ASP site specialized in fashion series. \nTrafting of advertising products, issue of affiliate links, development of functions such as conversion measurement.",
+        "techs": [
+          "Scala",
+          "PlayFramework",
+          "Redis",
+          "MySQL",
+          "AWS"
+        ]
+      },
+      {
+        "title": "Test preparation · Examination site",
+        "term": "1 month",
+        "img": "./images/bbq.png",
+        "description": "A site where you can create tests and take the exams.\nThere are functions such as user ranking and limitation of examination frequency\ntime limit.",
+        "techs": [
+          "React",
+          "Redux",
+          "Scala",
+          "AkkaHTTP",
+          "MySQL",
+          "AWS"
+        ]
+      },
+      {
+        "title": "Data collection tool",
+        "term": "2 months",
+        "img": "./images/crawler.png",
+        "description": "A service that collects data periodically using SNS API such as Twitter and Instagram.",
+        "techs": [
+          "Python",
+          "Docker",
+          "AWS ECR",
+          "AWS ECS"
+        ]
+      },
+      {
+        "title": "Creation of business efficiency tool",
+        "term": "always",
+        "img": "./images/gas.png",
+        "github": "https://github.com/yukihirai0505/my-google-apps-script",
+        "description": "Automate business card order confirmation, create crawler. \nCreate automated scripts according to business requirements \nProvide development as needed.",
+        "techs": [
+          "GoogleAppsScript",
+          "clasp"
+        ]
+      },
+      {
+        "title": "Instsagram Hashtag Recommend",
+        "term": "3 months",
+        "img": "./images/hashtagrecommend.png",
+        "description": "Recommendation service of hashtag using machine learning tool.",
+        "techs": [
+          "Python",
+          "Flask"
+        ]
+      },
+      {
+        "title": "to buy",
+        "term": "3 months",
+        "img": "./images/tobuy.png",
+        "url": "https://tobuy.jp/",
+        "description": "Media that can meet \"I want to buy\". \nIn influential influencers on SNS, we publish a page filled with our favorite items, \n Introducing information about favorite goods and favorite points.",
+        "techs": [
+          "WordPress",
+          "AWS kusanagi"
+        ]
+      },
+      {
+        "title": "Steem List",
+        "term": "3 days",
+        "img": "./images/steem.png",
+        "url": "https://yukihirai0505.github.io/steem-list/",
+        "description": "Steem third-party app.\nYou can create some Twitter-Like Lists for Steemit Users and also, share the list URL to others",
+        "techs": [
+          "Google Apps Script",
+          "React"
+        ]
       }
     ]
   },

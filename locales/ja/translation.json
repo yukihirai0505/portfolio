@@ -184,7 +184,7 @@
       },
       {
         "title": "ハッシュタグレコメンド",
-        "term": "常に",
+        "term": "3ヶ月",
         "img": "./images/hashtagrecommend.png",
         "description": "機械学習ツールを使用したハッシュタグのレコメンドサービス。",
         "techs": [
@@ -201,6 +201,17 @@
         "techs": [
           "WordPress",
           "AWS kusanagi"
+        ]
+      },
+      {
+        "title": "Steem List",
+        "term": "3日",
+        "img": "./images/steem.png",
+        "url": "https://yukihirai0505.github.io/steem-list/",
+        "description": "Steemのサードーティーサービス。Twitterのようにユーザーをリストごとにまとめることができて、リストのタイムライン一覧が閲覧できるサービス。",
+        "techs": [
+          "Google Apps Script",
+          "React"
         ]
       }
     ]
