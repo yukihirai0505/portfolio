@@ -12,7 +12,7 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - npm-cache-v1-{{ .Branch }}-{{ checksum "./web/package.json" }}
+            - npm-cache-v1-{{ .Branch }}-{{ checksum "./web/yarn.lock" }}
             - npm-cache-v1-
       - run:
           name: Install dependencies
