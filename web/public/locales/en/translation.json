@@ -71,6 +71,137 @@
           "Firebsae",
           "React.js"
         ]
+      },
+      {
+        "title": "ポチカム",
+        "term": "1年",
+        "img": "./images/pochicome.png",
+        "url": "https://pochicome.jp/",
+        "description": "日本最大級のモニターサイト。\n有名メーカーの新商品、コスメなどの当選。\nポイントを貯めてギフトカードと交換できるサービス。\nブログ、Facebook、twitterのSNSアカウントがあればカンタンに参加可能。",
+        "techs": [
+          "Java",
+          "PlayFramework",
+          "MySQL",
+          "memcached",
+          "AWS"
+        ]
+      },
+      {
+        "title": "目標管理システム",
+        "term": "3ヶ月",
+        "img": "./images/tegrat.png",
+        "description": "毎月の目標の設定と振り返りができるサービス。",
+        "techs": [
+          "Java",
+          "PlayFramework",
+          "MySQL",
+          "AWS"
+        ]
+      },
+      {
+        "title": "組織管理システム",
+        "term": "3ヶ月",
+        "img": "./images/alibaba.png",
+        "description": "社員情報の登録や異動などを管理できるサービス。\n共通認証サービスと組み合わせることで、\n同じユーザー情報を複数サービスで使用することを可能に。",
+        "techs": [
+          "Java",
+          "PlayFramework",
+          "MySQL",
+          "AWS"
+        ]
+      },
+      {
+        "title": "共通認証サービス",
+        "term": "3ヶ月",
+        "img": "./images/common_auth.png",
+        "description": "異なるサービスで使用できる共通認証サービス。\n複数サービスで同じユーザー情報を使いまわすことができる。\nGoogle認証を使用。",
+        "techs": [
+          "Java",
+          "PlayFramework",
+          "MySQL",
+          "AWS"
+        ]
+      },
+      {
+        "title": "固定費比較サイト",
+        "term": "3ヶ月",
+        "img": "./images/koteihi.jpg",
+        "description": "格安SIMや電気料金、ブロードバンドの\n比較サイトの立ち上げと開発。\n各社の比較ロジックや、ランキングロジックをWordPressのプラグインとして開発。",
+        "techs": [
+          "WordPress",
+          "AWS Kusanagi"
+        ]
+      },
+      {
+        "title": "ファッション専門ASP",
+        "term": "4ヶ月",
+        "img": "./images/hashstyle.png",
+        "description": "ファッション系に特化したASPサイトの立ち上げ開発。\n広告商品の入稿・アフィリエイトリンクの発行・コンバージョン測定などの機能開発。",
+        "techs": [
+          "Scala",
+          "PlayFramework",
+          "Redis",
+          "MySQL",
+          "AWS"
+        ]
+      },
+      {
+        "title": "テスト作成・受験サイト",
+        "term": "1ヶ月",
+        "img": "./images/bbq.png",
+        "description": "テストの作成と受験ができるサイト。\nユーザーのランキングや受験回数の制限\nタイムリミットなどの機能がある。",
+        "techs": [
+          "React",
+          "Redux",
+          "Scala",
+          "AkkaHTTP",
+          "MySQL",
+          "AWS"
+        ]
+      },
+      {
+        "title": "データ収集ツール",
+        "term": "2ヶ月",
+        "img": "./images/crawler.png",
+        "description": "TwitterやInstagramなどのSNSのAPIを使用して定期的にデータを収集するサービス。",
+        "techs": [
+          "Python",
+          "Docker",
+          "AWS ECR",
+          "AWS ECS"
+        ]
+      },
+      {
+        "title": "業務効率化ツールの作成",
+        "term": "常に",
+        "img": "./images/gas.png",
+        "github": "https://github.com/yukihirai0505/my-google-apps-script",
+        "description": "名刺発注確認の自動化や、クローラーの作成。\n業務要件に応じた自動化スクリプトの作成などを\n必要に応じて都度開発。",
+        "techs": [
+          "GoogleAppsScript",
+          "clasp"
+        ]
+      },
+      {
+        "title": "ハッシュタグレコメンド",
+        "term": "常に",
+        "img": "./images/hashtagrecommend.png",
+        "description": "機械学習ツールを使用したハッシュタグのレコメンドサービス。",
+        "techs": [
+          "Python",
+          "Flask"
+        ]
+      },
+      {
+        "title": "to buy",
+        "term": "3ヶ月",
+        "img": "./images/tobuy.png",
+        "url": "https://tobuy.jp/",
+        "description": "「買いたい」に出会える メディア。\nSNS上での影響力があるインフルエンサーが自身の愛用品の詰まったページを公開し、\n愛用品についての情報やお気に入りポイントを紹介。",
+        "techs": [
+          "WordPress",
+          "AWS kusanagi"
+        ]
       }
     ]
   },
