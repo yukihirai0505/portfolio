@@ -73,11 +73,11 @@
         ]
       },
       {
-        "title": "ポチカム",
-        "term": "1年",
+        "title": "Pochicome",
+        "term": "1 year",
         "img": "./images/pochicome.png",
         "url": "https://pochicome.jp/",
-        "description": "日本最大級のモニターサイト。\n有名メーカーの新商品、コスメなどの当選。\nポイントを貯めてギフトカードと交換できるサービス。\nブログ、Facebook、twitterのSNSアカウントがあればカンタンに参加可能。",
+        "description": "The largest monitor site in Japan.\nThis site deals with new products, cosmetics, etc. of famous manufacturers.\nIt's also a service that can save points and exchange with gift cards. \nEveryone can participate easily if they have blogs, Facebook, twitter SNS accounts.",
         "techs": [
           "Java",
           "PlayFramework",
@@ -87,10 +87,10 @@
         ]
       },
       {
-        "title": "目標管理システム",
-        "term": "3ヶ月",
+        "title": "Target management system",
+        "term": "3 months",
         "img": "./images/tegrat.png",
-        "description": "毎月の目標の設定と振り返りができるサービス。",
+        "description": "It is a service that allows you to set and review the monthly goals",
         "techs": [
           "Java",
           "PlayFramework",
@@ -99,10 +99,10 @@
         ]
       },
       {
-        "title": "組織管理システム",
-        "term": "3ヶ月",
+        "title": "Organization management system",
+        "term": "3 months",
         "img": "./images/alibaba.png",
-        "description": "社員情報の登録や異動などを管理できるサービス。\n共通認証サービスと組み合わせることで、\n同じユーザー情報を複数サービスで使用することを可能に。",
+        "description": "A service that can manage employee information registration and change. By combining with the common authentication service, it is possible to use the same user information with multiple services.",
         "techs": [
           "Java",
           "PlayFramework",
@@ -111,10 +111,10 @@
         ]
       },
       {
-        "title": "共通認証サービス",
-        "term": "3ヶ月",
+        "title": "Common authentication service",
+        "term": "3 months",
         "img": "./images/common_auth.png",
-        "description": "異なるサービスで使用できる共通認証サービス。\n複数サービスで同じユーザー情報を使いまわすことができる。\nGoogle認証を使用。",
+        "description": "Common authentication service that can be used for different services.\nYou can use the same user information with multiple services.\nUse Google authentication.",
         "techs": [
           "Java",
           "PlayFramework",
@@ -123,20 +123,20 @@
         ]
       },
       {
-        "title": "固定費比較サイト",
-        "term": "3ヶ月",
+        "title": "cost comparison site",
+        "term": "3 months",
         "img": "./images/koteihi.jpg",
-        "description": "格安SIMや電気料金、ブロードバンドの\n比較サイトの立ち上げと開発。\n各社の比較ロジックや、ランキングロジックをWordPressのプラグインとして開発。",
+        "description": "Launch and development of cheap SIM, electricity rate, broadband\ncomparison site.\nCompare logic of each company and ranking logic developed as WordPress plug-in.",
         "techs": [
           "WordPress",
           "AWS Kusanagi"
         ]
       },
       {
-        "title": "ファッション専門ASP",
-        "term": "4ヶ月",
+        "title": "Fashion specialized ASP",
+        "term": "4 months",
         "img": "./images/hashstyle.png",
-        "description": "ファッション系に特化したASPサイトの立ち上げ開発。\n広告商品の入稿・アフィリエイトリンクの発行・コンバージョン測定などの機能開発。",
+        "description": "Launch development of ASP site specialized in fashion series. \nTrafting of advertising products, issue of affiliate links, development of functions such as conversion measurement.",
         "techs": [
           "Scala",
           "PlayFramework",
@@ -146,10 +146,10 @@
         ]
       },
       {
-        "title": "テスト作成・受験サイト",
-        "term": "1ヶ月",
+        "title": "Test preparation · Examination site",
+        "term": "1 month",
         "img": "./images/bbq.png",
-        "description": "テストの作成と受験ができるサイト。\nユーザーのランキングや受験回数の制限\nタイムリミットなどの機能がある。",
+        "description": "A site where you can create tests and take the exams.\nThere are functions such as user ranking and limitation of examination frequency\ntime limit.",
         "techs": [
           "React",
           "Redux",
@@ -160,10 +160,10 @@
         ]
       },
       {
-        "title": "データ収集ツール",
-        "term": "2ヶ月",
+        "title": "Data collection tool",
+        "term": "2 months",
         "img": "./images/crawler.png",
-        "description": "TwitterやInstagramなどのSNSのAPIを使用して定期的にデータを収集するサービス。",
+        "description": "A service that collects data periodically using SNS API such as Twitter and Instagram.",
         "techs": [
           "Python",
           "Docker",
@@ -172,21 +172,21 @@
         ]
       },
       {
-        "title": "業務効率化ツールの作成",
-        "term": "常に",
+        "title": "Creation of business efficiency tool",
+        "term": "always",
         "img": "./images/gas.png",
         "github": "https://github.com/yukihirai0505/my-google-apps-script",
-        "description": "名刺発注確認の自動化や、クローラーの作成。\n業務要件に応じた自動化スクリプトの作成などを\n必要に応じて都度開発。",
+        "description": "Automate business card order confirmation, create crawler. \nCreate automated scripts according to business requirements \nProvide development as needed.",
         "techs": [
           "GoogleAppsScript",
           "clasp"
         ]
       },
       {
-        "title": "ハッシュタグレコメンド",
-        "term": "常に",
+        "title": "Instsagram Hashtag Recommend",
+        "term": "3 months",
         "img": "./images/hashtagrecommend.png",
-        "description": "機械学習ツールを使用したハッシュタグのレコメンドサービス。",
+        "description": "Recommendation service of hashtag using machine learning tool.",
         "techs": [
           "Python",
           "Flask"
@@ -194,13 +194,24 @@
       },
       {
         "title": "to buy",
-        "term": "3ヶ月",
+        "term": "3 months",
         "img": "./images/tobuy.png",
         "url": "https://tobuy.jp/",
-        "description": "「買いたい」に出会える メディア。\nSNS上での影響力があるインフルエンサーが自身の愛用品の詰まったページを公開し、\n愛用品についての情報やお気に入りポイントを紹介。",
+        "description": "Media that can meet \"I want to buy\". \nIn influential influencers on SNS, we publish a page filled with our favorite items, \n Introducing information about favorite goods and favorite points.",
         "techs": [
           "WordPress",
           "AWS kusanagi"
+        ]
+      },
+      {
+        "title": "Steem List",
+        "term": "3 days",
+        "img": "./images/steem.png",
+        "url": "https://yukihirai0505.github.io/steem-list/",
+        "description": "Steem third-party app.\nYou can create some Twitter-Like Lists for Steemit Users and also, share the list URL to others",
+        "techs": [
+          "Google Apps Script",
+          "React"
         ]
       }
     ]
