@@ -7,7 +7,6 @@ export const skills = {
     'Node.js',
     'Play Framework',
     'Akka HTTP',
-    'WordPress',
     'Google Apps Script'
   ],
   database: ['MySQL', 'PostgreSQL'],
@@ -15,6 +14,9 @@ export const skills = {
   web: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'React.js', 'Redux'],
   editor: ['Atom', 'Visual Studio Code', 'PHPStorm', 'IntelliJ', 'vim'],
   other: [
+    'Agile',
+    'WordPress',
+    'REST API',
     'Redis',
     'memcached',
     'GitHub',
