@@ -32,10 +32,16 @@
         "description": "Staffing Agency for the healthcare industry. I was a sales representative there."
       },
       {
-        "term": "Apr 2015 – Now",
+        "term": "Apr 2015 – Mar 2019",
         "name": "Cyberbuzz, Inc(Tokyo, Japan)",
         "job": "Senior Software Engineer",
         "description": "Contributed software engineering expertise in the development of products through the software lifecycle, from requirements definition through successful deployment.\nDesign, Build and maintain APIs, services, and systems across Cyberbuzz’s engineering teams using Scala(Akka HTTP), Java(PlayFramework), PHP(WordPress), Python(Flask), MySQL, Nginx, AWS etc.\nMaintain and enhance existing web applications and all integrated systems utilizing React.js"
+      },
+      {
+        "term": "Apr 2019 – Now",
+        "name": "Guidewire Software(Giza, Japan)",
+        "job": "Software Engineer",
+        "description": ""
       }
     ]
   },
