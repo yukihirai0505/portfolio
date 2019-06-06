@@ -20,6 +20,21 @@ body.active {
     z-index: -1;
   }
 
+::-webkit-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+::-ms-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+
 .no-js #experience-timeline > div {
       background: #fff;
       background: #fff;
