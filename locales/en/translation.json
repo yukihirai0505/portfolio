@@ -67,6 +67,23 @@
     "term": "Development",
     "projects": [
       {
+        "title": "SteMa！",
+        "term": "4days",
+        "img": "./images/stema.png",
+        "url": "https://pr.yabaiwebyasan.com",
+        "github": "https://github.com/yukihirai0505/interview",
+        "description": "You can create your own the digital interview:)",
+        "techs": [
+          "GitHub",
+          "Gatsby",
+          "Node.js",
+          "ZEIT Now",
+          "Netlify",
+          "GoogleAppsScript",
+          "Google Form"
+        ]
+      },
+      {
         "title": "BlueSky TwiChat",
         "term": "2days",
         "img": "./images/twichat.png",

@@ -73,7 +73,15 @@
         "url": "https://pr.yabaiwebyasan.com",
         "github": "https://github.com/yukihirai0505/interview",
         "description": "自分自身に取材することができるサービス。Googleフォームに回答するだけで、いい感じの取材記事っぽいものが出来上がります。",
-        "techs": ["GitHub", "Gatsby", "Netlify", "GoogleAppsScript", "Google Form"]
+        "techs": [
+          "GitHub",
+          "Gatsby",
+          "Node.js",
+          "ZEIT Now",
+          "Netlify",
+          "GoogleAppsScript",
+          "Google Form"
+        ]
       },
       {
         "title": "青空TwiChat",
