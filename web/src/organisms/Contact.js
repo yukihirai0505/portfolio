@@ -35,20 +35,16 @@ class Contact extends Component {
     const { isFinishContact } = this.state
     return (
       <div id="contact">
-        <h2>{t('contact.title')}</h2>
-        <div id="contact-form">
-          {isFinishContact ? (
-            <h2 className="animate seven">
-              {strToAnimationStyle(t('contact.thanks'))}
-            </h2>
-          ) : (
-            <form onSubmit={e => this.handleSubmit(e)}>
-              <input type="email" ref="email" placeholder={t('contact.email')} required/>
-              <textarea name="message" ref="message" placeholder={t('contact.message')} required/>
-              <button type="submit">{t('contact.submit')}</button>
-            </form>
-          )}
-        </div>
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSfaNr34GNMOAsn7dFpaodtTBv4FFqw42xthGWhx8TXoMOviOg/viewform?embedded=true"
+          width="640"
+          height="673"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+        >
+          Loading…
+        </iframe>
       </div>
     )
   }
